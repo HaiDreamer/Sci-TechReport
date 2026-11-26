@@ -1,0 +1,275 @@
+\documentclass[a4paper,12pt]{report}
+\usepackage[margin=1in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}      % subtle font expansion and margin protrusion
+\emergencystretch=3em   
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usepackage{graphicx}
+\usepackage{titlesec}
+\usepackage{titletoc}              
+\usepackage{fancyhdr}
+\usepackage{amsmath}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{booktabs}
+\usepackage{makecell}
+\usepackage{float}
+\usepackage{lipsum}
+\usepackage{adjustbox}
+\usepackage{setspace}
+\setstretch{1.2}
+\usepackage[colorlinks=true, linkcolor=black, citecolor=black, urlcolor=black]{hyperref}
+\usepackage[backend=biber, style=numeric, sorting=none]{biblatex}
+\addbibresource{references.bib}
+
+% vietnamese
+\usepackage[T5]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+
+\setlength{\headheight}{14.5pt}
+\pagestyle{fancy}
+\lhead{S\&T Management}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breaklines=true,
+    captionpos=b,
+    keepspaces=true,
+    numbers=left,
+    numbersep=5pt,
+    showspaces=false,
+    showstringspaces=false,
+    showtabs=false,
+    tabsize=2
+}
+\lstset{style=mystyle}
+
+% ----- Đánh số kiểu I. / 1. / 2.1. -----
+\renewcommand{\thechapter}{\Roman{chapter}}
+\renewcommand{\thesection}{\arabic{section}}
+\renewcommand{\thesubsection}{\thesection.\arabic{subsection}}
+
+\titleformat{\chapter}[block]
+  {\LARGE\bfseries}{\thechapter.}{0.5em}{\MakeUppercase}
+\titlespacing*{\chapter}{0pt}{0pt}{1cm}
+\titleformat{\section}[block]
+  {\Large\bfseries}{\thesection.}{0.5em}{}
+\titleformat{\subsection}[block]
+  {\large\bfseries}{\thesubsection.}{0.5em}{}
+
+% ----- Tiêu đề "TABLE OF CONTENTS" căn giữa -----
+\renewcommand{\contentsname}{TABLE OF CONTENTS}
+\titleformat{name=\chapter,numberless}[block]
+  {\centering\LARGE\bfseries}{}{0pt}{}
+\titlespacing*{name=\chapter,numberless}{0pt}{0pt}{1.5cm}
+
+% ----- Định dạng các dòng trong mục lục -----
+\titlecontents{chapter}[0pt]
+  {\addvspace{10pt}\bfseries}
+  {\thecontentslabel.\ \MakeUppercase}
+  {\MakeUppercase}
+  {\hfill\contentspage}
+\titlecontents{section}[1.5em]
+  {\addvspace{2pt}}
+  {\thecontentslabel.\ }
+  {}
+  {\hfill\contentspage}
+\titlecontents{subsection}[3em]
+  {\addvspace{2pt}}
+  {\thecontentslabel.\ }
+  {}
+  {\hfill\contentspage}
+
+
+\begin{document}
+
+% ===================== TRANG BÌA =====================
+\thispagestyle{empty}
+
+\begin{tikzpicture}[remember picture, overlay]
+    \draw[line width=2pt]
+        ($(current page.south west) + (0.5in, 0.5in)$)
+        rectangle
+        ($(current page.north east) - (0.5in, 0.5in)$);
+\end{tikzpicture}
+
+\begin{center}
+    {\Large \textbf{University of Science and Technology of Hanoi}}\\[0.5cm]
+
+    \includegraphics[width=0.5\textwidth]{images/usth.png}\\[1cm]
+
+    {\LARGE \textbf{Science and Technology Management}}\\[1cm]
+
+    \rule{\textwidth}{0.75pt}\\[0.5cm]
+    {\LARGE \textbf{Analysis of a company's technology management activities}}\\[0.5cm]
+    \rule{\textwidth}{0.75pt}\\[1.0cm]
+\end{center}
+
+% ----- Danh sách thành viên -----
+\begin{center}
+    \large
+    \renewcommand{\arraystretch}{1.1}
+    \begin{tabular}{l@{\hspace{1.75cm}}r}
+        \multicolumn{2}{l}{\hspace{-1.2cm}\textbf{\Large Members:}} \\[0.3cm]
+        \textbf{Nguyen Huy Hai} & 2640088\\
+        \textbf{Đang Trung Hieu} & 2640076\\
+        \textbf{Pham Mai Hanh} & 2640013\\
+        \textbf{Luyen Pham Ngoc Khanh} & 2640014\\
+        \textbf{Vuong Hong Minh} & 2640110\\
+        \textbf{Trinh Quang Minh} & 2640018\\
+        \textbf{Nguyen The Anh} & 2640003\\
+        \textbf{Nguyen Thi Minh Anh} & 2640059\\
+        \textbf{Nguyen Nam Anh } & 2640058
+    \end{tabular}
+\end{center}
+
+\vfill
+\begin{center}
+    \textit{Hanoi, Nov 2026}
+\end{center}
+\newpage
+
+
+% ===================== TABLE OF CONTENTS =====================
+% \setcounter{page}{2}
+\tableofcontents
+\listoffigures
+% Marks a source that has no entry in references.bib yet.
+\providecommand{\pending}[1]{\textbf{[#1]}}
+
+% ===================== MAIN CONTENT =====================
+% -------------------------------------------------
+% CHAPTER I 
+% Responsible: Hai
+% executive summary and 1. Company background and the AI-First shift
+% -------------------------------------------------
+\chapter{Technology Identification \& Selection}
+
+Technology identification means scanning the environment for technologies that matter to the business.
+
+\section{Identification: Market Growth, Client Demand, Competition and Policy}
+
+Four signals pointed FPT toward AI. First, market growth: Gartner estimates global AI spending at about USD~1,757bn in 2025, rising to about USD~3,335bn in 2027, which FPT cites in its own strategy \cite{M3}. That is close to a doubling in two years. Second, a shift in client demand from small pilots to company-wide deployment, which FPT describes in its large 2026 contracts \cite{A22}. Third, competitive pressure: AI coding tools reduce the effort, and therefore the billable hours, needed for traditional software work. Fourth, policy: both Vietnam and Japan are promoting domestic, sovereign AI capacity, and Japan faces an ageing population and a shortage of IT staff \cite{A15}.
+
+\section{Selection Criteria}
+Selection means deciding which of those technologies to invest in, against criteria such as strategic fit, market demand, technical feasibility, required investment and risk. FPT does not publish its internal selection method, so this chapter applies these course criteria to FPT's public decisions; it is our analysis rather than FPT's documented process.
+
+\section{Selected Priorities}
+Against these signals, FPT selected four priorities: GPU infrastructure (the AI Factory), an enterprise AI delivery platform (FleziPT), AI agents (FPT.AI), and the ability to integrate many different models.
+
+\section{What FPT Did Not Select}
+Equally important is what FPT did not select: it does not attempt to pre-train frontier foundation models. Doing so would require billions of dollars of compute and a research workforce FPT does not have; Mistral AI, for comparison, raised EUR~1.7bn in 2025 and EUR~3bn in 2026 largely to fund model research and compute \cite{B2,B1}. FPT's strategy instead combines open models such as LLaMA and Mistral with its own platform layer \cite{A8}. FPT also keeps semiconductors as a longer-term option: it delivered its first commercial chip shipment, power-management ICs, to a Japanese electronics company via Restar on 30~December 2025, with Restar aiming to distribute up to 10~million FPT chips over three years \cite{M4,M5}.
+
+% -------------------------------------------------
+% CHAPTER II - Technology Acquisition & Capability Building
+% Responsible: Hai
+% 3, 4 in material
+% -------------------------------------------------
+\chapter{Technology Acquisition \& Capability Building}
+
+\section{Acquisition routes: collaborate, co-invest, buy, make}
+
+\section{AI Factory results and supplier dependence}
+
+\section{Platforms and methods: FleziPT, Flezi Metis, CASAN}
+
+\section{R\&D and patents}
+
+\section{People and talent}
+
+
+% -------------------------------------------------
+% CHAPTER III - Technology Exploitation & Commercialisation
+% Responsible: Minh
+% at 5. Technology exploitation and commercialisation
+% -------------------------------------------------
+\chapter{Technology Exploitation \& Commercialisation}
+
+A technology creates value only when customers adopt it and pay for it. FPT earns from AI in three ways.
+AI transformation projects. This is the largest channel. In April 2026 FPT signed a contract worth tens of millions of US dollars with a global materials group to move it toward an agentic AI operating model on FleziPT \cite{A22}. In May 2026 it signed six AI transformation partnerships in Thailand and Singapore, including UOB, SCG, SATS and ComfortDelGro \cite{A23}, and in 2025 it signed a record US\$256m AI-powered digital solutions contract with an energy company \cite{A27}.
+AI agents. FPT.AI reported 10,220 active AI agents, 169 million model requests and more than 200 clients in 15 countries in 2025 \cite{A26}. Typical uses are customer service, sales support and document processing.
+GPU cloud. Companies rent AI Factory capacity to train or run their own models. Analysts report that its clients are mainly banks and technology companies \cite{M6}.
+Financial results. AI and data analytics revenue was VND 2,612bn in 2025 (+40.7\%), about US\$100m and 15.5\% of digital-transformation revenue \cite{M1, M6}. It reached VND 1,842bn in H1 2026 (+54\%) and VND 2,915bn in 9M2026 (+55\%), about 7.3\% of group revenue (our calculation: 2,915 / 40,023) \cite{M14, M2}. At group level, FPT won 16 projects worth more than US\$10m each in 9M2026, down from 19 a year earlier, while the number of contracts above US\$1m rose 29\% to 163 \cite{M15}. In the domestic market, newly signed AI and cloud revenue was VND 1,540bn in 2025 and recognised revenue VND 913bn (+48.4\%) \cite{M7}.
+A caution for interpretation: adoption figures such as agents, requests and tokens show usage, not profit. Judging commercial success requires revenue, margin and client retention, and FPT discloses only part of this.
+.
+
+
+\section{1}
+\section{2}
+\section{3}
+
+
+
+% -------------------------------------------------
+% CHAPTER IV - Technology Protection, Governance & Risk
+% Responsible: Minh
+% at 6. Technology protection, governance and risk
+% -------------------------------------------------
+\chapter{Technology Protection, Governance \& Risk}
+Protection means keeping control of the value a technology creates. For FPT this has three parts: intellectual property, certified governance and regulatory compliance.
+
+Intellectual property is protected through the patents described in section 4, through proprietary platform know-how, and through contracts with clients and partners. Because the base models belong to OpenAI, NAVER or open-source projects, FPT's patents protect only its own application layers; process know-how and client relationships are more important protections in practice.
+
+Governance is evidenced by external certification. FPT Software was the first Vietnamese company to receive accredited certification for ISO/IEC 42001, the international standard for AI management systems \cite{M16, M11}. The Vietnam AI Factory holds SOC 2 Type II and SOC 3 reports and the Japan site SOC 2 Type I \cite{M17}. In February 2026 FPT's Hanoi data centre received HITRUST r2 certification including the HITRUST AI Security Certification, which covers threats such as data poisoning, model inversion and prompt injection \cite{M18}.
+
+Regulation is now a formal constraint. Vietnam's Law on Artificial Intelligence (No. 134/2025/QH15) was passed on 10 December 2025 with 429 of 434 votes and took effect on 1 March 2026 \cite{M19}. It classifies AI systems into three risk tiers, requires conformity assessment for high-risk systems, requires important AI applications in essential sectors to run on national AI infrastructure, and gives existing systems in the medical, education and financial sectors 18 months to comply \cite{M20}. This adds compliance cost for FPT's banking and healthcare work, but its emphasis on local infrastructure could also favour domestic providers; the second point is our interpretation, not a stated FPT benefit.
+
+Key risks, in our analysis, and possible management responses (these are analytical risks, not failures FPT has reported):
+
+\begin{itemize}
+  \item GPU cost and idle capacity if demand weakens; \emph{response:} utilisation dashboards and pre-sold capacity.
+  \item Dependence on NVIDIA for chips and on OpenAI and NAVER for models; \emph{response:} multi-vendor and multi-model architecture.
+  \item Model errors and data privacy incidents at clients; \emph{response:} human review, audit logs and systematic model evaluation.
+  \item Revenue cannibalisation, as faster AI delivery reduces billable effort; \emph{response:} outcome-based pricing.
+\end{itemize}
+
+
+\section{1}
+\section{2}
+
+
+% -------------------------------------------------
+% CHAPTER V - Performance Evaluation 
+% Responsible: Khanh
+% at 7. Performance evaluation
+% -------------------------------------------------
+\chapter{Performance Evaluation}
+
+\section{1}
+
+\section{2}
+
+\section{Outcomes and progress against the 2026 plan}
+
+% -------------------------------------------------
+% CHAPTER VI - CONCLUSION 
+% Responsible: Khanh
+% at 8. Conclusion
+% ------------------------------------------------
+\chapter{Conclusion}
+
+
+% ===================== REFERENCES =====================
+\chapter*{References}
+\addcontentsline{toc}{chapter}{References}
+\printbibliography[heading=none]
+
+
+\end{document}
