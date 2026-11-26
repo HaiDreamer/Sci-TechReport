@@ -37,6 +37,8 @@
 \setlength{\headheight}{14.5pt}
 \pagestyle{fancy}
 \lhead{S\&T Management}
+% Right header: "IV. Title" instead of "CHAPTER IV. TITLE", so it no longer overlaps the left header
+\renewcommand{\chaptermark}[1]{\markboth{\thechapter.\ #1}{}}
 
 \definecolor{codegreen}{rgb}{0,0.6,0}
 \definecolor{codegray}{rgb}{0.5,0.5,0.5}
@@ -202,18 +204,46 @@ Equally important is what FPT did not select: it does not attempt to pre-train f
 % -------------------------------------------------
 \chapter{Technology Exploitation \& Commercialisation}
 
-A technology creates value only when customers adopt it and pay for it. FPT earns from AI in three ways.
-AI transformation projects. This is the largest channel. In April 2026 FPT signed a contract worth tens of millions of US dollars with a global materials group to move it toward an agentic AI operating model on FleziPT \cite{A22}. In May 2026 it signed six AI transformation partnerships in Thailand and Singapore, including UOB, SCG, SATS and ComfortDelGro \cite{A23}, and in 2025 it signed a record US\$256m AI-powered digital solutions contract with an energy company \cite{A27}.
-AI agents. FPT.AI reported 10,220 active AI agents, 169 million model requests and more than 200 clients in 15 countries in 2025 \cite{A26}. Typical uses are customer service, sales support and document processing.
-GPU cloud. Companies rent AI Factory capacity to train or run their own models. Analysts report that its clients are mainly banks and technology companies \cite{M6}.
-Financial results. AI and data analytics revenue was VND 2,612bn in 2025 (+40.7\%), about US\$100m and 15.5\% of digital-transformation revenue \cite{M1, M6}. It reached VND 1,842bn in H1 2026 (+54\%) and VND 2,915bn in 9M2026 (+55\%), about 7.3\% of group revenue (our calculation: 2,915 / 40,023) \cite{M14, M2}. At group level, FPT won 16 projects worth more than US\$10m each in 9M2026, down from 19 a year earlier, while the number of contracts above US\$1m rose 29\% to 163 \cite{M15}. In the domestic market, newly signed AI and cloud revenue was VND 1,540bn in 2025 and recognised revenue VND 913bn (+48.4\%) \cite{M7}.
-A caution for interpretation: adoption figures such as agents, requests and tokens show usage, not profit. Judging commercial success requires revenue, margin and client retention, and FPT discloses only part of this.
-.
+A technology creates value only when customers adopt it and pay for it. FPT earns from AI through three channels, and each channel sells one of the priorities FPT selected (Chapter~I): AI transformation projects sell FleziPT and model integration, AI agents sell the FPT.AI platform, and the GPU cloud sells AI Factory capacity. Semiconductors are still at an early stage: FPT delivered its first commercial chip shipment, to a Japanese electronics company, in December 2025 (Chapter~I) \cite{M4,M5}. Table~\ref{tab:channels} summarises the three channels. The rest of this chapter gives the evidence for each channel, the financial results so far, and what this evidence can and cannot show.
 
+\section{Three commercialisation channels}
 
-\section{1}
-\section{2}
-\section{3}
+\begin{table}[htbp]
+  \centering
+  \small
+  \caption{How FPT earns from AI}
+  \label{tab:channels}
+  \begin{tabular}{>{\raggedright\arraybackslash}p{2.8cm}>{\raggedright\arraybackslash}p{4.6cm}>{\raggedright\arraybackslash}p{6.4cm}}
+    \toprule
+    \textbf{Channel} & \textbf{What clients pay for} & \textbf{Real example} \\
+    \midrule
+    AI transformation projects & Design and build of AI systems across a client's business & Six AI partnerships in Thailand and Singapore, including UOB, SCG and SATS (May 2026) \cite{A23} \\ \addlinespace
+    AI agents & Ready-made agents for customer service, sales and document processing & 10,220 active FPT.AI agents for more than 200 clients in 15 countries (2025) \cite{A26} \\ \addlinespace
+    GPU cloud & Rented computing power to train and run AI models & Banks and technology firms rent AI Factory GPUs in Vietnam and Japan \cite{M6} \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\textbf{AI transformation projects.} In these projects, FPT designs and builds AI systems across a client's business, for example on its FleziPT platform \cite{A22}. Since May 2026 it has also used its CASAN maturity framework (Chapter~II) to assess clients and plan their AI roadmaps \cite{A23}. FPT does not report revenue by channel, but judged by contract size this is the largest channel. In 2025 FPT signed a record US\$256m AI-powered digital solutions contract with an energy company \cite{A27}. In April 2026 it signed a contract worth tens of millions of US dollars with a global materials group to move the group toward an agentic AI operating model on FleziPT \cite{A22}. In May 2026 it signed six AI transformation partnerships in Thailand and Singapore, with UOB, SCG, SATS, ComfortDelGro and others \cite{A23}.
+
+\textbf{AI agents.} FPT.AI sells ready-made AI agents for customer service, sales support and document processing. In 2025 it reported 10,220 active agents, 169 million model requests and more than 200 clients in 15 countries \cite{A26}. Unlike a project, an agent is a product: one design can be sold to many clients, so revenue from this channel can grow faster than headcount.
+
+\textbf{GPU cloud.} Clients rent AI Factory capacity in Vietnam and Japan to train or run their own models. Analysts report that these clients are mainly banks and technology companies \cite{M6}. Demand has grown: utilisation at both sites rose above 90\% in Q2 2026 (Chapter~II) \cite{A3}. In October 2026 FPT signed an MoU with NAVER Cloud to offer AI Factory capacity as GPU-as-a-Service across Asia-Pacific, including NAVER's HyperCLOVA~X model \cite{A7}. Beyond the GPUs themselves, FPT adds local hosting in Vietnam and Japan, language and engineering support, certified security (Chapter~IV) and a link to its existing clients. In our analysis, the GPU cloud is most defensible when it is sold together with FPT's projects and agents; on its own, GPU rental is easy for competitors to copy (Chapter~IV).
+
+\section{Financial results}
+
+FPT reports AI revenue only as one combined line, ``AI and data analytics''. This line was VND~2,612bn in 2025 (+40.7\%), about US\$100m and 15.5\% of digital-transformation revenue \cite{M1,M6}. In the domestic market, newly signed AI and cloud revenue was VND~1,540bn in 2025 and recognised revenue VND~913bn (+48.4\%) \cite{M7}. Signed revenue is the value of contracts won; recognised revenue is the part already delivered and booked. The gap between the two points to work still to be delivered.
+
+Growth accelerated in 2026. AI and data analytics revenue reached VND~1,842bn in H1 2026 (+54\%) and VND~2,915bn in 9M2026 (+55\%) \cite{M14,M2}. That is about 7.3\% of group revenue (our calculation: 2,915 / 40,023) \cite{A1}. This share uses 2026 group revenue, which no longer fully consolidates FPT Telecom (equity method from 2026), so it cannot be compared directly with shares based on FY2025 revenue \cite{A1}.
+
+Large-deal figures give a mixed signal, and they cover the whole group, not AI alone. FPT won 16 projects worth more than US\$10m each in 9M2026, down from 19 a year earlier, while the number of contracts above US\$1m rose 29\% to 163 \cite{M15}. At group level, Japan remains FPT's main growth market: revenue there rose 17.2\% in 9M2026, or 25.2\% in yen \cite{A1}.
+
+\section{Interpreting the evidence}
+
+Commercial value builds up in steps: a client problem is matched to an AI solution, the solution is deployed, users adopt it, and only then does it create measurable value for the client and profit for FPT. The evidence above is strong for the early steps and weak for the last one. Signed contracts show deployment, and agent counts, model requests and GPU utilisation show adoption. However, these figures measure usage, not profit. The one concrete client outcome in our sources is the Flezi Metis pilot (Chapter~II), in which source-code search time fell 50\% and task completion time 30\% \cite{A1}; it is a single pilot, and the figures are reported by FPT. Judging commercial success requires revenue, margin, client retention and return on investment for each channel. In the sources we reviewed, FPT does not disclose AI margins, AI Factory revenue or return on investment. All AI-specific figures are company-reported or analyst estimates, not audited line items.
+
+Overall, FPT's AI offer is clearly being sold and used, and AI and data revenue grows quickly. But at about 7\% of group revenue, and without margin data, it is too early to say that AI has become a profitable core business for FPT.
+
 
 
 
@@ -223,26 +253,63 @@ A caution for interpretation: adoption figures such as agents, requests and toke
 % at 6. Technology protection, governance and risk
 % -------------------------------------------------
 \chapter{Technology Protection, Governance \& Risk}
-Protection means keeping control of the value a technology creates. For FPT this has three parts: intellectual property, certified governance and regulatory compliance.
+Protection means keeping control of the value a technology creates. For FPT this has three parts: intellectual property, certified governance and regulatory compliance. The chapter ends with the main risks that these protections do not remove, and possible responses to them.
 
-Intellectual property is protected through the patents described in section 4, through proprietary platform know-how, and through contracts with clients and partners. Because the base models belong to OpenAI, NAVER or open-source projects, FPT's patents protect only its own application layers; process know-how and client relationships are more important protections in practice.
+\section{Intellectual property}
 
-Governance is evidenced by external certification. FPT Software was the first Vietnamese company to receive accredited certification for ISO/IEC 42001, the international standard for AI management systems \cite{M16, M11}. The Vietnam AI Factory holds SOC 2 Type II and SOC 3 reports and the Japan site SOC 2 Type I \cite{M17}. In February 2026 FPT's Hanoi data centre received HITRUST r2 certification including the HITRUST AI Security Certification, which covers threats such as data poisoning, model inversion and prompt injection \cite{M18}.
+FPT protects its technology through applied patents, proprietary platform know-how, and contracts with clients and partners. The patents cover application-level tools (Chapter~II): AI4Code for source-code generation and SoundAI for acoustic anomaly detection in the US \cite{M8}, Akabot for document classification in the US and Taiwan \cite{M9}, and an image-recognition system in Japan \cite{M10}. Because the base models belong to OpenAI, NAVER or open-source projects, these patents protect only FPT's own application layer, not the models underneath. FPT uses these models under partner agreements and open-model licences: it is an OpenAI Select Partner, has an MoU with NAVER Cloud, and uses open models such as LLaMA and Mistral \cite{A6,A7,A8}.
 
-Regulation is now a formal constraint. Vietnam's Law on Artificial Intelligence (No. 134/2025/QH15) was passed on 10 December 2025 with 429 of 434 votes and took effect on 1 March 2026 \cite{M19}. It classifies AI systems into three risk tiers, requires conformity assessment for high-risk systems, requires important AI applications in essential sectors to run on national AI infrastructure, and gives existing systems in the medical, education and financial sectors 18 months to comply \cite{M20}. This adds compliance cost for FPT's banking and healthcare work, but its emphasis on local infrastructure could also favour domestic providers; the second point is our interpretation, not a stated FPT benefit.
+In practice, FPT's stronger protection is what competitors find hard to copy: its delivery methods (FleziPT and CASAN), its certified operations and its client relationships. The weakness is that a competitor with the same models and the same NVIDIA hardware can offer a similar technical product.
 
-Key risks, in our analysis, and possible management responses (these are analytical risks, not failures FPT has reported):
+\section{Certified governance}
+
+FPT uses external certification to show clients that its AI systems and their data are well governed. Three certifications stand out:
 
 \begin{itemize}
-  \item GPU cost and idle capacity if demand weakens; \emph{response:} utilisation dashboards and pre-sold capacity.
-  \item Dependence on NVIDIA for chips and on OpenAI and NAVER for models; \emph{response:} multi-vendor and multi-model architecture.
-  \item Model errors and data privacy incidents at clients; \emph{response:} human review, audit logs and systematic model evaluation.
-  \item Revenue cannibalisation, as faster AI delivery reduces billable effort; \emph{response:} outcome-based pricing.
+  \item \textbf{ISO/IEC 42001 (AI management).} This is the international standard for AI management systems. FPT Software was the first Vietnamese company to receive accredited certification for it \cite{M16,M11}.
+  \item \textbf{SOC~2 and SOC~3 (cloud security).} These are independent audit reports on a service provider's security controls. A Type~I report checks that the controls are well designed at one point in time; a Type~II report also tests that they worked over a period; a SOC~3 report is a public summary. The Vietnam AI Factory holds SOC~2 Type~II and SOC~3 reports, and the Japan site a SOC~2 Type~I report \cite{M17}.
+  \item \textbf{HITRUST AI Security (AI security).} In February 2026 FPT's Hanoi data centre received HITRUST r2 certification, including the HITRUST AI Security Certification \cite{M18}. It covers attacks specific to AI: data poisoning (corrupting training data), model inversion (recovering private training data from a model) and prompt injection (hiding malicious instructions in a model's input).
 \end{itemize}
 
+These certifications protect revenue as well as data. Banks, one of the two main client groups of the GPU cloud (Chapter~III), and other regulated clients usually require audited controls before they move sensitive data or models to an outside provider. One gap remains: the Japan site's report is Type~I, so its controls have not yet been tested over a period.
 
-\section{1}
-\section{2}
+\section{Regulatory compliance: Vietnam's AI Law}
+
+Regulation is now a formal constraint. Vietnam's Law on Artificial Intelligence (No.~134/2025/QH15) was passed on 10~December 2025 with 429 of 434 votes and took effect on 1~March 2026 \cite{M19}. The law:
+
+\begin{itemize}
+  \item classifies AI systems into three risk tiers;
+  \item requires conformity assessment, a formal check that a system meets the law's requirements, for high-risk systems;
+  \item requires important AI applications in essential sectors to run on national AI infrastructure;
+  \item gives existing systems in the medical, education and financial sectors 18 months to comply \cite{M20}.
+\end{itemize}
+
+The law adds compliance cost to FPT's banking and healthcare work. In our interpretation, which FPT has not stated, the law may also help FPT in two ways. First, its emphasis on national AI infrastructure could favour domestic providers such as FPT. Second, FPT's existing ISO/IEC 42001 management system may make compliance easier, although the sources we reviewed do not say whether the law accepts this standard as proof of conformity.
+
+\section{Key risks and management responses}
+
+Patents, certification and compliance do not remove four business risks. Table~\ref{tab:risks} lists them with possible responses. These are risks in our analysis, not failures FPT has reported.
+
+\begin{table}[htbp]
+  \centering
+  \small
+  \caption{Key risks and possible management responses}
+  \label{tab:risks}
+  \begin{tabular}{>{\raggedright\arraybackslash}p{2.8cm}>{\raggedright\arraybackslash}p{6.4cm}>{\raggedright\arraybackslash}p{4.6cm}}
+    \toprule
+    \textbf{Risk} & \textbf{Why it matters for FPT} & \textbf{Possible response} \\
+    \midrule
+    Idle GPUs & GPUs are expensive fixed assets. The Japan site was still loss-making in early 2026 \cite{M6}, and rental prices could fall if GPU supply grows. & Utilisation dashboards, pre-sold capacity, and GPU capacity bundled with projects and agents \\ \addlinespace
+    Dependence on NVIDIA and model suppliers & AI Factory GPUs come from NVIDIA \cite{A19,A21}; models come from OpenAI and NAVER \cite{A6,A7}. & Multi-vendor and multi-model architecture, so that workloads can move between suppliers \\ \addlinespace
+    AI errors and data privacy & AI outputs can be wrong, and client data passes through FPT systems. Under the AI Law, high-risk uses need conformity assessment \cite{M20}. & Access control, human review, audit logs and systematic model evaluation \\ \addlinespace
+    Fewer billable hours & FPT claims FleziPT cuts development time by up to 60\% \cite{A24}. Under time-based pricing, faster delivery means less revenue per project. & Outcome-based pricing and reskilling engineers \cite{A28} \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\section{Assessment}
+
+FPT's protection rests less on owning core technology than on what surrounds it. Its patents are narrow, and the models and chips it uses belong to others. Its real protection is a combination of hard-to-copy know-how, client relationships and audited governance, which also helps it win regulated clients. The main open risks are commercial rather than legal: keeping expensive GPUs busy, and staying profitable as AI reduces the hours that clients pay for.
 
 
 % -------------------------------------------------
