@@ -786,6 +786,52 @@
       \verb https://www.allenandgledhill.com/perspectives/articles/32668/vnkh-vietnam-s-new-law-on-artificial-intelligence-risk-based-regulatory-framework-in-force-1-march-2026
       \endverb
     \endentry
+    \entry{A5}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=181068501d772d511be2fea4519c72af}{%
+           family={{DatacenterDynamics}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{181068501d772d511be2fea4519c72af}
+      \strng{fullhash}{181068501d772d511be2fea4519c72af}
+      \strng{fullhashraw}{181068501d772d511be2fea4519c72af}
+      \strng{bibnamehash}{181068501d772d511be2fea4519c72af}
+      \strng{authorbibnamehash}{181068501d772d511be2fea4519c72af}
+      \strng{authornamehash}{181068501d772d511be2fea4519c72af}
+      \strng{authorfullhash}{181068501d772d511be2fea4519c72af}
+      \strng{authorfullhashraw}{181068501d772d511be2fea4519c72af}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.datacenterdynamics.com/en/news/sbi-holdings-and-sumitomo-acquire-minority-shares-in-fpt-smart-cloud-japan/}}
+      \field{month}{4}
+      \field{title}{{SBI} Holdings and Sumitomo acquire minority shares in {FPT} Smart Cloud Japan}
+      \field{year}{2025}
+    \endentry
+    \entry{A16}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=52768c35bf4f17d9aa91cc4211475bc4}{%
+           family={{Business Wire}},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{52768c35bf4f17d9aa91cc4211475bc4}
+      \strng{fullhash}{52768c35bf4f17d9aa91cc4211475bc4}
+      \strng{fullhashraw}{52768c35bf4f17d9aa91cc4211475bc4}
+      \strng{bibnamehash}{52768c35bf4f17d9aa91cc4211475bc4}
+      \strng{authorbibnamehash}{52768c35bf4f17d9aa91cc4211475bc4}
+      \strng{authornamehash}{52768c35bf4f17d9aa91cc4211475bc4}
+      \strng{authorfullhash}{52768c35bf4f17d9aa91cc4211475bc4}
+      \strng{authorfullhashraw}{52768c35bf4f17d9aa91cc4211475bc4}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.businesswire.com/news/home/20241120048980/en/}}
+      \field{month}{11}
+      \field{title}{{FPT} announces partner ecosystem, launches {AI} Factory in Vietnam and Japan}
+      \field{year}{2024}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

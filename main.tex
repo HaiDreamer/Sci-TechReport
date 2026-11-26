@@ -252,11 +252,35 @@ Key risks, in our analysis, and possible management responses (these are analyti
 % -------------------------------------------------
 \chapter{Performance Evaluation}
 
-\section{1}
+\section{Investment and delivery capability}
 
-\section{2}
+We assess investment as moderate relative to the cost of developing a frontier model. FPT concentrates its resources on computing capacity and enterprise applications \cite{A8}. In Japan, minority shareholders SBI Holdings and Sumitomo share the venture's equity financing \cite{A5}. This limits the capital FPT must provide on its own, but idle GPUs still carry costs. Judging investment efficiency would require evidence on utilisation and returns.
 
-\section{Outcomes and progress against the 2026 plan}
+Delivery capability is strong. FPT operates AI Factories in Vietnam and Japan \cite{A16}. Its signed FleziPT contract with a materials company demonstrates demand \cite{A22}. A separate case provides evidence of implementation: FPT reports deploying Flezi Metis for an automotive technology group in its \href{https://fpt.com/en/news/fpt-s-9-months-2026-revenue-and-pbt-increase-12-4-and-17-0}{nine-month results}.
+
+\section{Adoption and profitability}
+
+Adoption is strong in both reach and use. FPT.AI reported more than 200 clients across 15 countries and 10,220 active agents in 2025 \cite{A26}. Figure~\ref{fig:ai-growth} adds a commercial measure. In the first nine months of 2026, AI and data analytics revenue grew by 55\% year on year, against 12.4\% for the group after restating the 2025 comparison for FPT Telecom \cite{M2,M15}. This gap of nearly 43 percentage points shows that AI and analytics gained weight in FPT's business, albeit from a small base.
+
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[x=0.11cm,y=0.6cm,font=\small]
+\draw[gray] (0,-0.45) -- (0,1.45);
+\foreach \y/\v/\name in {1/12.4/Whole group,0/55/AI and data analytics}{
+  \node[anchor=east] at (0,\y) {\name};
+  \fill[blue!55!black] (0,\y-0.23) rectangle (\v,\y+0.23);
+  \node[anchor=west] at (\v,\y) {+\v\%};
+}
+\end{tikzpicture}
+\caption[Revenue growth in the first nine months of 2026]{Year-on-year revenue growth, January--September 2026. Sources: \href{https://fpt.com/en/news/fpt-s-9-months-2026-revenue-and-pbt-increase-12-4-and-17-0}{FPT nine-month results} and CafeF \cite{M2}.}
+\label{fig:ai-growth}
+\end{figure}
+
+Profitability remains unproven. The results provide revenue but no separate AI operating margin to show what remains after delivery and infrastructure costs. Assessing return on investment (ROI) would also require earnings and invested capital measured for the same activities.
+
+\section{Revenue contribution and strategic progress}
+
+AI and data analytics generated VND~2,915bn of the group's VND~40,023bn in revenue in the first nine months of 2026, a share of about 7.3\% \cite{M2}. In its \href{https://bctn2025.fpt.com/en/business-performance-analysis/technology-sector/it-services-for-foreign-markets/}{2025 annual report}, FPT describes an ambition for AI-First services to account for about one third of revenue in its discussion of overseas IT services. It gives no deadline there. The service category and reporting scope differ from the group figures, so 7.3\% cannot directly measure progress towards that ambition. We judge FPT to be on track operationally on the strength of its delivery capacity and customer uptake. This is a qualitative judgement about execution, rather than a test against dated milestones.
 
 % -------------------------------------------------
 % CHAPTER VI - CONCLUSION 
@@ -265,9 +289,13 @@ Key risks, in our analysis, and possible management responses (these are analyti
 % ------------------------------------------------
 \chapter{Conclusion}
 
+FPT's decision to integrate AI into enterprise systems fits its strengths as a software services company. Existing customer relationships help it identify work worth automating. Its delivery scale allows it to serve clients across markets, while its engineers' technical and industry knowledge helps them adapt general-purpose models to specific workflows \cite{A22,A26}. Partner investment has helped build the infrastructure behind these services \cite{A5,A16}, and certification of FPT Software's AI management system provides a basis for oversight as deployments expand \cite{M16}. Taken together, customer use and revenue growth support the strategic choice and show solid execution \cite{A26,M2}. The financial return remains unproven.
+
+Future assessments should track AI operating margins and ROI alongside dependence on GPU and model suppliers, whose pricing and availability affect delivery costs. Tracking AI's share of group revenue under a consistent definition would then show whether FPT is expanding this business while earning a sustainable return.
 
 % ===================== REFERENCES =====================
 \chapter*{References}
+\section*{1}
 \addcontentsline{toc}{chapter}{References}
 \printbibliography[heading=none]
 
