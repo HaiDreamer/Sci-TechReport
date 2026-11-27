@@ -167,17 +167,30 @@
 Technology identification means scanning the environment for technologies that matter to the business.
 
 \section{Identification: Market Growth, Client Demand, Competition and Policy}
-
-Four signals pointed FPT toward AI. First, market growth: Gartner estimates global AI spending at about USD~1,757bn in 2025, rising to about USD~3,335bn in 2027, which FPT cites in its own strategy \cite{M3}. That is close to a doubling in two years. Second, a shift in client demand from small pilots to company-wide deployment, which FPT describes in its large 2026 contracts \cite{A22}. Third, competitive pressure: AI coding tools reduce the effort, and therefore the billable hours, needed for traditional software work. Fourth, policy: both Vietnam and Japan are promoting domestic, sovereign AI capacity, and Japan faces an ageing population and a shortage of IT staff \cite{A15}.
+There are 4 signals pointed FPT toward AI. First, market growth: Gartner estimates global AI spending at about USD~1,757 billions 
+in 2025, estimated to rise about USD~3,335 billions in 2027 of FPT's strategy \cite{M3}. It is close to a doubling in two years. 
+Second, a shift in client demand from small pilots to company-wide deployment, which FPT describes in its large 2026 contracts 
+\cite{A22}. Third, competitive pressure: AI coding tools reduce the effort. Therefore billable hours needed for 
+traditional software work. Fourth, policy: both Vietnam and Japan are promoting domestic, sovereign AI capacity, and Japan 
+faces an ageing population and a shortage of IT staff \cite{A15}.
 
 \section{Selection Criteria}
-Selection means deciding which of those technologies to invest in, against criteria such as strategic fit, market demand, technical feasibility, required investment and risk. FPT does not publish its internal selection method, so this chapter applies these course criteria to FPT's public decisions; it is our analysis rather than FPT's documented process.
+Selection means deciding which of those technologies to invest in, against criteria such as strategic fit, market demand, 
+technical feasibility, required investment and risk. FPT does not publish its internal selection method, so this chapter 
+applies selection criteria taught in the course to FPT's public decisions; which means it is our analysis rather than 
+FPT's documented process.
 
 \section{Selected Priorities}
-Against these signals, FPT selected four priorities: GPU infrastructure (the AI Factory), an enterprise AI delivery platform (FleziPT), AI agents (FPT.AI), and the ability to integrate many different models.
+Against these signals, FPT selected four priorities: GPU infrastructure (the AI Factory), an enterprise AI delivery platform 
+(FleziPT), AI agents (FPT.AI), and the ability to integrate many different models.
 
 \section{What FPT Did Not Select}
-Equally important is what FPT did not select: it does not attempt to pre-train frontier foundation models. Doing so would require billions of dollars of compute and a research workforce FPT does not have; Mistral AI, for comparison, raised EUR~1.7bn in 2025 and EUR~3bn in 2026 largely to fund model research and compute \cite{B2,B1}. FPT's strategy instead combines open models such as LLaMA and Mistral with its own platform layer \cite{A8}. FPT also keeps semiconductors as a longer-term option: it delivered its first commercial chip shipment, power-management ICs, to a Japanese electronics company via Restar on 30~December 2025, with Restar aiming to distribute up to 10~million FPT chips over three years \cite{M4,M5}.
+What FPT did not select is an important aspect: it does not attempt to pre-train frontier foundation models. That works may 
+require billions of dollars of compute and a research workforce FPT does not have; Mistral AI, for comparison, raised EUR~1.7 billions 
+in 2025 and EUR~3 billions in 2026 largely to fund model research and compute \cite{B2,B1}. FPT's strategy combines open models 
+such as LLaMA and Mistral with its own platform layer \cite{A8}. FPT also keeps semiconductors as a longer-term option: it 
+delivered its first commercial chip shipment, power-management ICs, to a Japanese electronics company with Restar on 30~December 2025, 
+with Restar aiming to distribute up to 10~million FPT chips over 3 years \cite{M4,M5}.
 
 % -------------------------------------------------
 % CHAPTER II - Technology Acquisition & Capability Building
@@ -186,15 +199,95 @@ Equally important is what FPT did not select: it does not attempt to pre-train f
 % -------------------------------------------------
 \chapter{Technology Acquisition \& Capability Building}
 
-\section{Acquisition routes: collaborate, co-invest, buy, make}
+\section{Acquisition Routes: Collaborate, Co-invest, Buy and Make}
+FPT combines four acquisition routes, summarised in Table~\ref{tab:acquisition-routes}.
+\begin{table}[htbp]
+\centering
+\caption{FPT's technology acquisition routes (our classification)}
+\label{tab:acquisition-routes}
+\begin{tabular}{|p{0.16\textwidth}|p{0.74\textwidth}|}
+\hline
+\textbf{Route} & \textbf{Main examples} \\
+\hline
+Collaborate & NVIDIA, April 2024 \cite{A4}; Mila, renewed June 2023 \cite{A13}; G42, February 2026 \cite{A20}; OpenAI, August 2026 \cite{A6}; NAVER Cloud, October 2026 \cite{A7} \\
+\hline
+Co-invest & FPT Smart Cloud Japan with SBI Holdings and Sumitomo, April 2025 \cite{A5}; equity investment in Landing AI, October 2023 \cite{A14} \\
+\hline
+Buy & Next Advanced Communications (NAC), Japan, 2024 \cite{A15}; David Lamm Consulting, Germany, 2025 \cite{A18} \\
+\hline
+Make & FleziPT platform \cite{A8}; semiconductor chips \cite{M4,M5} \\
+\hline
+\end{tabular}
+\end{table}
 
-\section{AI Factory results and supplier dependence}
+Collaboration provides compute, models and research. In April 2024, FPT announced a partnership with NVIDIA and a USD~200~million 
+AI factory using H100 graphics processing units (GPUs) and NVIDIA AI Enterprise software \cite{A4}. FPT and NAVER Cloud have 
+formally expressed their intention to cooperate. As part of this cooperation, FPT plans to make NAVER Cloud's AI model, HyperCLOVA X, 
+available through its AI Factory \cite{A7}. With Viet Thai Group, it also signed a framework agreement with G42 on 
+hyperscale data centres in Vietnam \cite{A20}.
+Co-investment brings partners into specific ventures. SBI Holdings and Sumitomo each agreed to take 20\% of FPT 
+Smart Cloud Japan, leaving FPT with 60\% \cite{A5}, while FPT became a strategic shareholder in the computer vision 
+company Landing AI \cite{A14}. Acquisitions help FPT gain experienced employees and knowledge of new markets. For example, NAC, FPT's first acquisition in Japan, brought nearly 300 experienced engineers to the company \cite{A15}. 
+Similarly, the acquisition of David Lamm Consulting helped FPT gain expertise in digital technology for Germany's energy sector
+\cite{A18}. Overall, FPT appears to partner for capital-intensive technology, buy market and domain access, and develop its 
+integration layer internally.
 
-\section{Platforms and methods: FleziPT, Flezi Metis, CASAN}
+% TODO: check
+\section{AI Factory Results and Supplier Dependence}
+The performance of the AI Factory changed sharply in just over a year. In August 2025, Mirae Asset Securities reported management's 
+statement that utilisation in Vietnam and Japan remained below 10\% because of weak demand, with a possible 2025 revenue shortfall 
+of USD~30--40~million \cite{M22}. In February 2026, Vietcap estimated average utilisation at about 60\%, with the Vietnamese site 
+at break-even since December 2025 and the Japanese site still loss-making \cite{M6}. FPT's annual report announcement instead cites 
+roughly 70\% \cite{M7}; the sources do not explain this difference. First-half 2026 results showed utilisation above 90\% and 
+profitability in the second quarter \cite{A3}. In November 2026, figures attributed to VNDIRECT indicated 95\% utilisation and annualised revenue of about VND~1,000~billion, which is a current run rate rather than booked annual revenue \cite{M23}.
+Hardware supply is also concentrated. The Japanese and Vietnamese clusters, both using NVIDIA H200 GPUs, ranked 36th and 38th 
+respectively on the June 2025 TOP500 supercomputer list \cite{A19}. In March 2026, FPT announced that NVIDIA HGX B300 systems 
+would soon join its H100 and H200 platforms \cite{A21}. NVIDIA provides an established technology base, but this dependence 
+exposes FPT to the supplier's pricing, allocation and product cycle, and to changes in export controls. The sources reviewed 
+identify no alternative GPU supplier. The earlier low utilisation also illustrates the demand risk of installing capacity ahead 
+of customer contracts.
 
-\section{R\&D and patents}
+\section{Platforms and Methods: FleziPT, Flezi Metis and CASAN}
+FleziPT, launched in 2025 \cite{M7}, is FPT's AI platform. It is built on methodologies and solutions 
+validated in real deployments and combines human talent with a digital workforce \cite{A8}. FPT reports up 
+to 60\% faster development, over 50\% less rework and about 30\% higher productivity, and states that the 
+platform contributed to an 8.2\% internal productivity increase in 2025 \cite{A24}. Because their scope differs, 
+the larger figures should not be read as company-wide averages.
+Flezi Metis addresses the complexity of existing software. In a deployment for a US-headquartered automotive 
+technology and services group, initial pilot results on about one million lines of code showed 50\% less source 
+code search time and 30\% less time to complete technical tasks. FPT is extending the platform to banking, insurance and 
+the public sector \cite{A1}.
+CASAN is a five-level AI-native capability framework that provides a transformation roadmap \cite{A23}. It runs from 
+early experimentation to AI-native operations, and FPT observes that most enterprises remain at the first two levels \cite{A25}. 
+In our assessment, the three tools are complementary: CASAN assesses readiness, FleziPT supports delivery and Flezi Metis captures 
+knowledge held in client systems. They could turn project experience into reusable assets and reduce reliance on billable hours, 
+although the evidence remains company-reported.
 
-\section{People and talent}
+\section{R\&D and Patents}
+FPT's research and development (R\&D) combines external collaboration with internal investment. In June 2023, 
+FPT renewed its partnership with the AI research institute Mila for three years, covering large language models, 
+natural language processing and responsible AI \cite{A13}. FPT has also begun building an Artificial Intelligence 
+Center and Supporting Urban Area, with a total investment exceeding VND~4,300~billion. Its targets include leading 
+multimodal foundation models in Vietnam, Japan and Southeast Asia, while its Quantum AI \& Cybersecurity Institute 
+aims to train 100 PhD-level researchers and produce 500 publications, patents and other intellectual property assets \cite{A8}.
+Reported patents cover image recognition in Japan (2023) \cite{M10}; source code generation and acoustic anomaly 
+detection in the United States (2025) \cite{M8,M13}; and document classification for the akaBot automation platform in 
+the United States and Taiwan \cite{M9}. These protect applied technologies, several of which are linked to products. However, 
+the sources reviewed give neither total R\&D expenditure nor a consolidated patent count, so R\&D intensity cannot be assessed.
+
+\section{People and Talent}
+FPT reports more than 54,000 employees from over 80 nationalities \cite{A25}, including more than 30,000 AI-augmented 
+engineers \cite{A6}. It runs AI training and reskilling programmes, has established AI centres of excellence in key markets 
+\cite{A24}, and reports productivity gains of about 30\% in selected internal activities \cite{A25}. In April 2026, Chief 
+Executive Officer Nguyen Van Khoa stated that FPT was unlike companies that use AI as a reason to cut staff \cite{A28}. Mirae Asset 
+had, however, recorded a headcount reduction of 497 in the second quarter of 2025, with restructuring favouring senior engineers 
+and AI-skilled junior staff \cite{M22}.
+Education supports the talent pipeline. The 2025 annual report announcement records more than 3,700 college and university 
+students in AI and chip design programmes \cite{M7}. The NVIDIA partnership set a five-year target of at least 30,000 students 
+\cite{A4}, and the Landing AI partnership covered an AI curriculum for grades 1 to 12 \cite{A14}. FPT also targets AI skills 
+training for about 500,000 individuals during 2026--2030 and 10,000 semiconductor professionals by 2030 \cite{A8}.
+In our assessment, this education network is a valuable asset, although several targets extend beyond FPT's own workforce. 
+The main challenge is to convert AI literacy into specialist capability while AI reduces the effort needed for traditional work. Certified specialists, staff redeployment and revenue per employee would measure progress better than training numbers alone.
 
 
 % -------------------------------------------------
@@ -237,9 +330,9 @@ results so far, and what this evidence can and cannot show.
 
 \section{Financial results}
 
-FPT reports AI revenue only as one combined line, ``AI and data analytics''. This line was VND~2,612bn in 2025 (+40.7\%), about US\$100m and 15.5\% of digital-transformation revenue \cite{M1,M6}. In the domestic market, newly signed AI and cloud revenue was VND~1,540bn in 2025 and recognised revenue VND~913bn (+48.4\%) \cite{M7}. Signed revenue is the value of contracts won; recognised revenue is the part already delivered and booked. The gap between the two points to work still to be delivered.
+FPT reports AI revenue only as one combined line, ``AI and data analytics''. This line was VND~2,612 billions in 2025 (+40.7\%), about US\$100m and 15.5\% of digital-transformation revenue \cite{M1,M6}. In the domestic market, newly signed AI and cloud revenue was VND~1,540 billions in 2025 and recognised revenue VND~913 billions (+48.4\%) \cite{M7}. Signed revenue is the value of contracts won; recognised revenue is the part already delivered and booked. The gap between the two points to work still to be delivered.
 
-Growth accelerated in 2026. AI and data analytics revenue reached VND~1,842bn in H1 2026 (+54\%) and VND~2,915bn in 9M2026 (+55\%) \cite{M14,M2}. That is about 7.3\% of group revenue (our calculation: 2,915 / 40,023) \cite{A1}. This share uses 2026 group revenue, which no longer fully consolidates FPT Telecom (equity method from 2026), so it cannot be compared directly with shares based on FY2025 revenue \cite{A1}.
+Growth accelerated in 2026. AI and data analytics revenue reached VND~1,842 billions in H1 2026 (+54\%) and VND~2,915 billions in 9M2026 (+55\%) \cite{M14,M2}. That is about 7.3\% of group revenue (our calculation: 2,915 / 40,023) \cite{A1}. This share uses 2026 group revenue, which no longer fully consolidates FPT Telecom (equity method from 2026), so it cannot be compared directly with shares based on FY2025 revenue \cite{A1}.
 
 Large-deal figures give a mixed signal, and they cover the whole group, not AI alone. FPT won 16 projects worth more than US\$10m each in 9M2026, down from 19 a year earlier, while the number of contracts above US\$1m rose 29\% to 163 \cite{M15}. At group level, Japan remains FPT's main growth market: revenue there rose 17.2\% in 9M2026, or 25.2\% in yen \cite{A1}.
 
