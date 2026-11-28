@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.6.29)  28 NOV 2026 10:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.6.29)  28 NOV 2026 16:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**d:/Sci&TechReport/main.tex
-(d:/Sci&TechReport/main.tex
+**d:/Sci-TechReport/main.tex
+(d:/Sci-TechReport/main.tex
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-06-18>
 (C:\Program Files\MiKTeX\tex/latex/base\report.cls
@@ -1193,7 +1193,7 @@ Package biblatex Info: ... file 'main.bbl' found.
  (main.bbl)
 Package biblatex Info: Reference section=0 on input line 104.
 Package biblatex Info: Reference segment=0 on input line 104.
-<images/usth.png, id=106, 341.9685pt x 192.501pt>
+<images/usth.png, id=82, 341.9685pt x 192.501pt>
 File: images/usth.png Graphic file (type png)
 <use images/usth.png>
 Package pdftex.def Info: images/usth.png  used on input line 119.
@@ -1228,7 +1228,18 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
  [2
 
-] (main.lof)
+] (main.lof
+Overfull \hbox (4.29205pt too wide) detected at line 9
+\T5/lmr/m/n/12 VIII.1 
+ []
+
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 9.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 9.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 9.
+)
 \tf@lof=\write7
 \openout7 = `main.lof'.
 
@@ -1238,83 +1249,83 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 Chapter I.
 [4
 
-] [5]
+]
 Chapter II.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 212.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 212.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 212.
+[5
+
+]
+Chapter III.
 [6
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 321--321
-[]|\T5/lmr/bx/n/10.95 (+20) Platform or
- []
-
-[7]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 379.
- (C:\Program Files\MiKTeX\tex/latex/lm\ts1lmr.fd
-File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [8] [9{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}] [10]
-Chapter III.
-[11
-
-] [12]
 Chapter IV.
-[13
+[7
 
-] [14]
+]
 Chapter V.
-[15
+[8
 
 ]
 Chapter VI.
-[16
+
+Underfull \hbox (badness 1057) in paragraph at lines 189--189
+|\T5/lmr/bx/n/20.74 (+20) VI. TECH-NOL-OGY EX-PLOITA-TION &
+ []
+
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 200.
+[9
+
+] [10]
+Chapter VII.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 245.
+(C:\Program Files\MiKTeX\tex/latex/lm\ts1lmr.fd
+File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+) [11
+
+{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}] [12]
+Chapter VIII.
+[13
+
+] [14]
+Chapter IX.
+[15
 
 ]
-LaTeX Font Info:    Trying to load font information for T5+lmtt on input line 582.
+LaTeX Font Info:    Trying to load font information for T5+lmtt on input line 342.
  (C:\Program Files\MiKTeX\tex/latex/lm\t5lmtt.fd
 File: t5lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 
 Package microtype Warning: I cannot find a protrusion list for font
 (microtype)                `T5/lmtt/m/n/12'. Switching off
-(microtype)                protrusion for this font on input line 582.
+(microtype)                protrusion for this font on input line 342.
 
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 582.
-[17
+[16
 
-]
-Underfull \hbox (badness 1226) in paragraph at lines 582--582
-[]\T5/lmr/m/n/12 (+20) Business Wire. \T5/lmr/m/it/12 (+20) FPT named an Ope-nAI Se-lect Part-ner\T5/lmr/m/n/12 (+20) . [][]$\T5/lmtt/m/n/12 https : / / www .
- []
-
-[18] [19] [20] [21] (main.aux)
+] [17] [18] (main.aux)
  ***********
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-06-18>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 0E1DE886EEB087978342604E8098CB0E;5282.
+(rerunfilecheck)             Checksum: 75617B28C7B7B70FBC0FF21C6A213BF9;3602.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 36313 strings out of 467510
- 673526 string characters out of 5418903
- 1628347 words of memory out of 5000000
- 64701 multiletter control sequences out of 15000+600000
- 732969 words of font info for 183 fonts, out of 8000000 for 9000
+ 36224 strings out of 467510
+ 671506 string characters out of 5418903
+ 1618306 words of memory out of 5000000
+ 64687 multiletter control sequences out of 15000+600000
+ 731126 words of font info for 161 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,12n,107p,1019b,1755s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,11n,107p,1019b,1776s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmro12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on main.pdf (21 pages, 391160 bytes).
+Output written on main.pdf (18 pages, 340959 bytes).
 PDF statistics:
- 578 PDF objects out of 1000 (max. 8388607)
- 99 named destinations out of 1000 (max. 500000)
- 43226 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 407 PDF objects out of 1000 (max. 8388607)
+ 68 named destinations out of 1000 (max. 500000)
+ 43178 words of extra memory for PDF output out of 51595 (max. 10000000)
 
