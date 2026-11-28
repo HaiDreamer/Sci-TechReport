@@ -19,7 +19,7 @@
 \contentsline {chapter}{\numberline {V}Performance Evaluation}{10}{chapter.5}%
 \contentsline {section}{\numberline {1}Investment and delivery capability}{10}{section.5.1}%
 \contentsline {section}{\numberline {2}Adoption and profitability}{10}{section.5.2}%
-\contentsline {section}{\numberline {3}Revenue contribution and strategic progress}{10}{section.5.3}%
+\contentsline {section}{\numberline {3}Revenue contribution and strategic progress}{11}{section.5.3}%
 \contentsline {chapter}{\numberline {VI}Conclusion}{12}{chapter.6}%
 \contentsline {chapter}{References}{13}{chapter*.4}%
 \contentsfinish 

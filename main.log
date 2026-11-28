@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.11.26)  26 NOV 2026 22:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.11.26)  28 NOV 2026 14:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1270,18 +1270,18 @@ Chapter VI.
 [12
 
 ]
-LaTeX Font Info:    Trying to load font information for T5+lmtt on input line 300.
+LaTeX Font Info:    Trying to load font information for T5+lmtt on input line 304.
  (/home/kasumi/.local/texlive/2026/texmf-dist/tex/latex/lm/t5lmtt.fd
 File: t5lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 
 Package microtype Warning: I cannot find a protrusion list for font
 (microtype)                `T5/lmtt/m/n/12'. Switching off
-(microtype)                protrusion for this font on input line 300.
+(microtype)                protrusion for this font on input line 304.
 
 [13
 
-] [14] [15] (./main.aux)
+] [14] [15] [16] (./main.aux)
  ***********
 LaTeX2e <2026-11-01>
 L3 programming layer <2026-11-16>
@@ -1293,18 +1293,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 36461 strings out of 468393
- 686174 string characters out of 5436850
- 1624535 words of memory out of 5000000
- 65003 multiletter control sequences out of 15000+600000
- 722925 words of font info for 155 fonts, out of 8000000 for 9000
+ 36498 strings out of 468393
+ 687169 string characters out of 5436850
+ 1625854 words of memory out of 5000000
+ 65024 multiletter control sequences out of 15000+600000
+ 723233 words of font info for 159 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 102i,11n,107p,1056b,1777s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,11n,107p,1056b,1776s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </home/kasumi/.local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></home/kasumi/.local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></home/kasumi/.local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmr10.pfb></home/kasumi/.local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmr12.pfb></home/kasumi/.local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmri12.pfb></home/kasumi/.local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmro12.pfb></home/kasumi/.local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on main.pdf (15 pages, 253659 bytes).
+Output written on main.pdf (16 pages, 258952 bytes).
 PDF statistics:
- 423 PDF objects out of 1000 (max. 8388607)
- 359 compressed objects within 4 object streams
- 68 named destinations out of 1000 (max. 500000)
+ 461 PDF objects out of 1000 (max. 8388607)
+ 396 compressed objects within 4 object streams
+ 76 named destinations out of 1000 (max. 500000)
  39122 words of extra memory for PDF output out of 42996 (max. 10000000)
 

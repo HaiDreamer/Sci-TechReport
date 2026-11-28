@@ -809,6 +809,29 @@
       \field{title}{{SBI} Holdings and Sumitomo acquire minority shares in {FPT} Smart Cloud Japan}
       \field{year}{2025}
     \endentry
+    \entry{A29}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=550eaee1f9011d5de7f3615bea3bf569}{%
+           family={{FPT Corporation}},
+           familyi={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{550eaee1f9011d5de7f3615bea3bf569}
+      \strng{fullhash}{550eaee1f9011d5de7f3615bea3bf569}
+      \strng{fullhashraw}{550eaee1f9011d5de7f3615bea3bf569}
+      \strng{bibnamehash}{550eaee1f9011d5de7f3615bea3bf569}
+      \strng{authorbibnamehash}{550eaee1f9011d5de7f3615bea3bf569}
+      \strng{authornamehash}{550eaee1f9011d5de7f3615bea3bf569}
+      \strng{authorfullhash}{550eaee1f9011d5de7f3615bea3bf569}
+      \strng{authorfullhashraw}{550eaee1f9011d5de7f3615bea3bf569}
+      \field{extraname}{8}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://fpt.com/vi/tin-tuc/6-thang-dau-nam-2026-loi-nhuan-truoc-thue-cua-fpt-tang-truong-18-1}}
+      \field{title}{{H1} 2026 business results and highlights}
+      \field{year}{2026}
+    \endentry
     \entry{A16}{misc}{}{}
       \name{author}{1}{}{%
         {{hash=52768c35bf4f17d9aa91cc4211475bc4}{%
@@ -823,6 +846,7 @@
       \strng{authornamehash}{52768c35bf4f17d9aa91cc4211475bc4}
       \strng{authorfullhash}{52768c35bf4f17d9aa91cc4211475bc4}
       \strng{authorfullhashraw}{52768c35bf4f17d9aa91cc4211475bc4}
+      \field{extraname}{1}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -831,6 +855,177 @@
       \field{month}{11}
       \field{title}{{FPT} announces partner ecosystem, launches {AI} Factory in Vietnam and Japan}
       \field{year}{2024}
+    \endentry
+    \entry{A13}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=52768c35bf4f17d9aa91cc4211475bc4}{%
+           family={{Business Wire}},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{52768c35bf4f17d9aa91cc4211475bc4}
+      \strng{fullhash}{52768c35bf4f17d9aa91cc4211475bc4}
+      \strng{fullhashraw}{52768c35bf4f17d9aa91cc4211475bc4}
+      \strng{bibnamehash}{52768c35bf4f17d9aa91cc4211475bc4}
+      \strng{authorbibnamehash}{52768c35bf4f17d9aa91cc4211475bc4}
+      \strng{authornamehash}{52768c35bf4f17d9aa91cc4211475bc4}
+      \strng{authorfullhash}{52768c35bf4f17d9aa91cc4211475bc4}
+      \strng{authorfullhashraw}{52768c35bf4f17d9aa91cc4211475bc4}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.businesswire.com/news/home/20230604005002/en/FPT-and-Mila-Renew-Strategic-Partnership-Advancing-Responsible-AI}}
+      \field{month}{6}
+      \field{title}{{FPT} and Mila renew strategic partnership advancing responsible {AI}}
+      \field{year}{2023}
+    \endentry
+    \entry{M13}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=550eaee1f9011d5de7f3615bea3bf569}{%
+           family={{FPT Corporation}},
+           familyi={F\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {FPT Corporation}%
+      }
+      \strng{namehash}{550eaee1f9011d5de7f3615bea3bf569}
+      \strng{fullhash}{550eaee1f9011d5de7f3615bea3bf569}
+      \strng{fullhashraw}{550eaee1f9011d5de7f3615bea3bf569}
+      \strng{bibnamehash}{550eaee1f9011d5de7f3615bea3bf569}
+      \strng{authorbibnamehash}{550eaee1f9011d5de7f3615bea3bf569}
+      \strng{authornamehash}{550eaee1f9011d5de7f3615bea3bf569}
+      \strng{authorfullhash}{550eaee1f9011d5de7f3615bea3bf569}
+      \strng{authorfullhashraw}{550eaee1f9011d5de7f3615bea3bf569}
+      \field{extraname}{9}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{10}
+      \field{month}{11}
+      \field{title}{{FPT Achieves U.S. Patent for Advanced Acoustic Anomaly Detection Technology}}
+      \field{urlday}{25}
+      \field{urlmonth}{11}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://fpt.com/en/news/fpt-achieves-us-patent-for-advanced-acoustic-anomaly-detection-technology
+      \endverb
+      \verb{url}
+      \verb https://fpt.com/en/news/fpt-achieves-us-patent-for-advanced-acoustic-anomaly-detection-technology
+      \endverb
+    \endentry
+    \entry{FptEnergy}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=550eaee1f9011d5de7f3615bea3bf569}{%
+           family={{FPT Corporation}},
+           familyi={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{550eaee1f9011d5de7f3615bea3bf569}
+      \strng{fullhash}{550eaee1f9011d5de7f3615bea3bf569}
+      \strng{fullhashraw}{550eaee1f9011d5de7f3615bea3bf569}
+      \strng{bibnamehash}{550eaee1f9011d5de7f3615bea3bf569}
+      \strng{authorbibnamehash}{550eaee1f9011d5de7f3615bea3bf569}
+      \strng{authornamehash}{550eaee1f9011d5de7f3615bea3bf569}
+      \strng{authorfullhash}{550eaee1f9011d5de7f3615bea3bf569}
+      \strng{authorfullhashraw}{550eaee1f9011d5de7f3615bea3bf569}
+      \field{extraname}{10}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{16}
+      \field{month}{9}
+      \field{title}{FPT Appointed as Strategic Digital Solutions Partner by Leading Southeast Asian Energy Company}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://fpt.com/en/news/fpt-appointed-as-strategic-digital-solutions-partner-by-leading-southeast-asian-energy-company
+      \endverb
+      \verb{url}
+      \verb https://fpt.com/en/news/fpt-appointed-as-strategic-digital-solutions-partner-by-leading-southeast-asian-energy-company
+      \endverb
+    \endentry
+    \entry{FptNine}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=550eaee1f9011d5de7f3615bea3bf569}{%
+           family={{FPT Corporation}},
+           familyi={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{550eaee1f9011d5de7f3615bea3bf569}
+      \strng{fullhash}{550eaee1f9011d5de7f3615bea3bf569}
+      \strng{fullhashraw}{550eaee1f9011d5de7f3615bea3bf569}
+      \strng{bibnamehash}{550eaee1f9011d5de7f3615bea3bf569}
+      \strng{authorbibnamehash}{550eaee1f9011d5de7f3615bea3bf569}
+      \strng{authornamehash}{550eaee1f9011d5de7f3615bea3bf569}
+      \strng{authorfullhash}{550eaee1f9011d5de7f3615bea3bf569}
+      \strng{authorfullhashraw}{550eaee1f9011d5de7f3615bea3bf569}
+      \field{extraname}{11}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{21}
+      \field{month}{10}
+      \field{title}{FPT's 9 months 2026 revenue and PBT increase 12.4\% and 17.0\%}
+      \field{year}{2026}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://fpt.com/en/news/fpt-s-9-months-2026-revenue-and-pbt-increase-12-4-and-17-0
+      \endverb
+      \verb{url}
+      \verb https://fpt.com/en/news/fpt-s-9-months-2026-revenue-and-pbt-increase-12-4-and-17-0
+      \endverb
+    \endentry
+    \entry{A7}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=fc1798eaea9046f2fa021f378d5a3434}{%
+           family={{TechRepublic}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{fc1798eaea9046f2fa021f378d5a3434}
+      \strng{fullhash}{fc1798eaea9046f2fa021f378d5a3434}
+      \strng{fullhashraw}{fc1798eaea9046f2fa021f378d5a3434}
+      \strng{bibnamehash}{fc1798eaea9046f2fa021f378d5a3434}
+      \strng{authorbibnamehash}{fc1798eaea9046f2fa021f378d5a3434}
+      \strng{authornamehash}{fc1798eaea9046f2fa021f378d5a3434}
+      \strng{authorfullhash}{fc1798eaea9046f2fa021f378d5a3434}
+      \strng{authorfullhashraw}{fc1798eaea9046f2fa021f378d5a3434}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.techrepublic.com/article/news-fpt-naver-cloud-ai-factory-partnership-apac-vietnam/}}
+      \field{month}{10}
+      \field{title}{{FPT} joins {NAVER} Cloud to expand {AI} Factory services across Asia}
+      \field{year}{2026}
+    \endentry
+    \entry{A21}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=550eaee1f9011d5de7f3615bea3bf569}{%
+           family={{FPT Corporation}},
+           familyi={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{550eaee1f9011d5de7f3615bea3bf569}
+      \strng{fullhash}{550eaee1f9011d5de7f3615bea3bf569}
+      \strng{fullhashraw}{550eaee1f9011d5de7f3615bea3bf569}
+      \strng{bibnamehash}{550eaee1f9011d5de7f3615bea3bf569}
+      \strng{authorbibnamehash}{550eaee1f9011d5de7f3615bea3bf569}
+      \strng{authornamehash}{550eaee1f9011d5de7f3615bea3bf569}
+      \strng{authorfullhash}{550eaee1f9011d5de7f3615bea3bf569}
+      \strng{authorfullhashraw}{550eaee1f9011d5de7f3615bea3bf569}
+      \field{extraname}{12}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://fpt.com/en/news/fpt-ai-factory-accelerates-ai-reasoning-capabilities-across-southeast-asia-and-japan-with-nvidia}}
+      \field{month}{3}
+      \field{title}{{FPT} {AI} Factory accelerates {AI} reasoning with {NVIDIA} {HGX} {B300}}
+      \field{year}{2026}
     \endentry
   \enddatalist
 \endrefsection
