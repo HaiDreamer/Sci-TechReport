@@ -158,26 +158,191 @@
 \providecommand{\pending}[1]{\textbf{[#1]}}
 
 % ===================== MAIN CONTENT =====================
+% Source-tracking convention:
+%   % src: <file>, p.N            -> content taken from that page/slide
+%   % src: <file>, slide N (bổ sung) -> added from the slides, not in the main PDF
+%   % NOTE: ...                    -> needs a decision/check by the authors
+% "PDF" below = sources/FPT Technology Management.pdf
+% "slides" below = sources/SciTech-Group 2-Sunday.pptx.pdf
+% Citation keys S1--S29 = the [S1]--[S29] source list on PDF p.6.
+
 % -------------------------------------------------
-% CHAPTER I 
+% CHAPTER I
 % Responsible: Hai
 % executive summary and 1. Company background and the AI-First shift
 % -------------------------------------------------
 \chapter{Introduction}
-% executive summary
-
-\chapter{Company background and the AI-First shift}
-
-\chapter{Technology Identification}
 
 % -------------------------------------------------
-% Technology Selection and Acquisition 
+% EXECUTIVE SUMMARY  (PDF p.1, unnumbered heading in the PDF)
+% -------------------------------------------------
+\chapter*{Executive Summary}
+\addcontentsline{toc}{chapter}{Executive Summary}
+\markboth{Executive Summary}{}
+% NOTE: "Executive summary" is unnumbered in the PDF, so it is kept unnumbered here (\chapter*).
+
+FPT Corporation, Vietnam's largest IT services group, has repositioned itself as an ``AI-First'' company. We analyse this shift with Gregory's (1995) technology management process -- identification, selection, acquisition, exploitation and protection -- and assess FPT's technological capability with the THIO model. FPT's approach is consistent across the process: it builds AI infrastructure, platforms and delivery capability on top of chips and models supplied by partners, rather than developing frontier foundation models of its own. It acquired compute through a strategic partnership with NVIDIA, shared the investment in Japan with Sumitomo and SBI Holdings, and partners with OpenAI and NAVER Cloud for models \cite{S5,S6,S8,S9}.
+% src: FPT Technology Management.pdf, p.1
+
+Results are measurable but early. AI and data analytics revenue reached VND~2,915bn in the first nine months of 2026, up 55\%, against 12.4\% growth for the group \cite{S2}. Both AI Factories passed 90\% utilisation and turned profitable in Q2 2026, according to FPT \cite{S4}. However, AI and data is only about 7.3\% of group revenue, and FPT does not disclose AI margins or return on investment \cite{S2}. Our judgement: the strategy is coherent and operationally on track, but its financial payoff is not yet proven, and FPT's advantage lies in customers, delivery scale and know-how rather than in ownership of core AI technology.
+% src: FPT Technology Management.pdf, p.1
+
+
+% -------------------------------------------------
+% PDF section 1
+% -------------------------------------------------
+\chapter{Company background and the AI-First shift}
+
+FPT was founded in 1988 and operates in technology (global and domestic IT services), telecommunications, and education. Its traditional outsourcing model earns revenue in proportion to the number of engineers and hours delivered. Generative AI threatens that model, because clients expect faster and cheaper delivery, but it also creates demand for AI consulting, integration and infrastructure. FPT's 2025 annual report describes AI as a core capability of its growth strategy \cite{S16}.
+% src: FPT Technology Management.pdf, p.1
+
+An accounting change matters for every 2026 comparison: from 2026 FPT accounts for FPT Telecom by the equity method instead of full consolidation. Reported 2026 revenue is therefore smaller and cannot be compared directly with FY2025; FPT reports growth on a restated basis. On this basis, 9M2026 revenue was VND~40,023bn (+12.4\%) and profit before tax VND~8,770bn (+17\%) \cite{S2}.
+% src: FPT Technology Management.pdf, p.1
+
+
+% -------------------------------------------------
+% PDF section 2
+% -------------------------------------------------
+\chapter{Technology Identification}
+
+Identification means finding and assessing technologies that are, or may become, important to the business, through technology assessment, market scanning and information management (Gregory, 1995). Four signals pointed FPT toward AI:
+
+\begin{itemize}
+  \item \textbf{Market.} Gartner forecast worldwide AI spending of nearly US\$1.5 trillion in 2025 and more than US\$2 trillion in 2026 \cite{S1}.
+  \item \textbf{Clients.} Enterprises are moving from AI pilots to company-wide, platform-driven deployment \cite{S17}.
+  \item \textbf{Competition.} AI coding tools reduce the effort needed for software work, putting pressure on outsourcing sold by man-hours (our analysis).
+  \item \textbf{Policy.} Vietnam lists AI among its national strategic technologies (Decision 21/2026/QĐ-TTg), and Japan is building sovereign AI capacity, which FPT's Japanese partnership is intended to support \cite{S6}.
+\end{itemize}
+% src: FPT Technology Management.pdf, p.1; same four signals on slide 4 (SciTech-Group 2-Sunday.pptx.pdf)
+
+FPT therefore identified AI as both a threat to its headcount-based model and an opportunity in consulting, integration and infrastructure.
+% src: FPT Technology Management.pdf, p.2
+
+FPT's response was an AI-First strategy, with AI as a core capability.
+% src: SciTech-Group 2-Sunday.pptx.pdf, slide 4 (bổ sung) -- box "What FPT identified", line "Response: AI-First strategy; AI as a core capability"
+
+
+% -------------------------------------------------
+% Technology Selection and Acquisition
 % Responsible: ?
 % -------------------------------------------------
 
+% -------------------------------------------------
+% PDF section 3
+% -------------------------------------------------
 \chapter{Technology Selection}
 
+Selection methods include scenario analysis, portfolio analysis (SWOT, BCG), multi-criteria decision making (MCDM), expert judgment and financial analysis. FPT's decision was a choice between discrete alternatives, which fits multi-attribute decision making (MADM). FPT does not publish its selection method, so the comparison below is our qualitative analysis.
+% src: FPT Technology Management.pdf, p.2
+
+\begin{table}[htbp]
+  \centering
+  \small
+  \caption{Develop own frontier model vs.\ build on top of existing models}
+  \label{tab:selection}
+  \begin{tabular}{>{\raggedright\arraybackslash}p{2.4cm}>{\raggedright\arraybackslash}p{5.9cm}>{\raggedright\arraybackslash}p{5.9cm}}
+    \toprule
+    \textbf{Criteria} & \textbf{A. Develop own frontier model} & \textbf{B. Build on top of existing models} \\
+    \midrule
+    Strategic fit & Far from FPT's core IT services & Uses FPT's clients and delivery teams \\ \addlinespace
+    Feasibility & Huge compute and scarce research talent & NVIDIA GPUs; partner and open models \\ \addlinespace
+    Investment & Mistral AI raised \texteuro1.7bn (2025) and \texteuro3bn (2026) \cite{S20,S21} & About US\$200m per AI Factory site \cite{S5,S7} \\ \addlinespace
+    Decision & Not selected & Selected \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+% src: FPT Technology Management.pdf, p.2 (table); same table on slide 5
+% NOTE: "About US$200m per AI Factory site" (p.2, also slide 5 "~US$200m per site") vs p.2 section 4 / p.5 Key figures "US$200m plan for an AI Factory" -- unclear whether US$200m is per site or one plan in total.
+
+FPT selected four priorities: GPU infrastructure (FPT AI Factory), an AI delivery platform (FleziPT, launched August 2025) \cite{S18}, AI agents (FPT.AI), and the use of partner and open models. Semiconductors are kept as a longer-term option: on 30 December 2025 FPT delivered its first commercial batch of power-management ICs to a Japanese electronics company through the distributor Restar \cite{S19}.
+% src: FPT Technology Management.pdf, p.2; slide 5 (same four priorities and chip option)
+
+
+% -------------------------------------------------
+% PDF section 4
+% -------------------------------------------------
 \chapter{Technology Acquisition}
+
+A firm can acquire a selected technology by making it (in-house R\&D), buying it (purchasing, outsourcing, licensing, M\&A) or collaborating with partners. FPT uses all three routes, but collaboration dominates.
+% src: FPT Technology Management.pdf, p.2
+
+\textbf{Collaborate.} On 23 April 2024 FPT signed a comprehensive strategic partnership with NVIDIA and announced a US\$200m plan for an AI Factory \cite{S5}. In April 2025 Sumitomo Corporation and SBI Holdings each agreed to take 20\% of FPT Smart Cloud Japan, which runs the Japanese AI Factory, while FPT keeps 60\% \cite{S6}. In 2026 FPT became an OpenAI Select Partner (August) and signed an MoU with NAVER Cloud covering AI Factory projects, GPU-as-a-Service and access to HyperCLOVA X (October) \cite{S8,S9}.
+% src: FPT Technology Management.pdf, p.2; slide 6
+
+\textbf{Buy.} FPT purchases NVIDIA GPUs (H100, H200 and, from 2026, HGX B300) \cite{S7,S10}. It acquired NAC, a Japanese IT firm with about 300 engineers, in March 2024 -- its first acquisition in Japan \cite{S11} -- and David Lamm Consulting, a German energy-sector IT consultancy, in May 2025 \cite{S12}.
+% src: FPT Technology Management.pdf, p.2
+% NOTE: "from 2026, HGX B300" is cited to [S7] (Nov 2024) and [S10] (TOP500, 2025); neither date can support a 2026 fact. The AI Factory table (p.3) dates the B300 announcement to March 2026 with [S3, S4]. Please check the citation.
+
+Of these, the GPUs are acquired through purchasing, while NAC and David Lamm Consulting are acquired through M\&A.
+% src: SciTech-Group 2-Sunday.pptx.pdf, slide 6 (bổ sung) -- "Purchasing: NVIDIA GPUs", "M&A: NAC, Japan (2024)", "M&A: David Lamm Consulting, Germany (2025)"
+
+\textbf{Make.} FPT designs and operates the AI Factories itself, built the FleziPT platform, holds patents from in-house R\&D, and designs its own power-management chips \cite{S13,S14,S19}. The patents from in-house R\&D are held in the US and Taiwan.
+% src: FPT Technology Management.pdf, p.2 (first sentence)
+% src: SciTech-Group 2-Sunday.pptx.pdf, slide 6 (bổ sung) -- second sentence, "In-house R&D -> patents in US & Taiwan"
+
+\textbf{Why collaborate?} As in the Pfizer--BioNTech case, collaboration shares risk, combines complementary capabilities (FPT's engineering with the Japanese partners' client networks) and speeds up market entry. The trade-off is dependence on NVIDIA as the key GPU supplier.
+% src: FPT Technology Management.pdf, p.2; slide 6
+
+\section{Case: the AI Factory}
+
+\begin{table}[htbp]
+  \centering
+  \small
+  \caption{AI Factory milestones}
+  \label{tab:aifactory}
+  \begin{tabular}{>{\raggedright\arraybackslash}p{1.4cm}>{\raggedright\arraybackslash}p{13.0cm}}
+    \toprule
+    \textbf{Year} & \textbf{Milestone} \\
+    \midrule
+    2024 & NVIDIA partnership (April); AI Factory launched in Japan with NVIDIA H200 (13 November) and in Vietnam with H100 (November) \cite{S5,S7} \\ \addlinespace
+    2025 & Sumitomo and SBI take 40\% of the Japan unit (April); TOP500 list (June): Japan \#36 (49.85 PFLOPS), Vietnam \#38 (46.65 PFLOPS) \cite{S6,S10} \\ \addlinespace
+    2026 & NVIDIA HGX B300 announced (March); Vietnam site at breakeven and Japan site loss-making, average utilisation about 60\% (February); both sites above 90\% utilisation and profitable (Q2) \cite{S3,S4} \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+% src: FPT Technology Management.pdf, p.3 (table); slide 7 (same milestones, utilisation ~60% -> >90%)
+
+Analysts estimate AI Factory revenue at about US\$12m in H1 2026 \cite{S4}. FPT does not publish a separate profit and loss for each site, so profitability rests on company disclosure.
+% src: FPT Technology Management.pdf, p.3
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.75\textwidth]{images/fpt_nvidia_signing.jpg}
+  \caption{FPT--NVIDIA signing, Hanoi, April 2024}
+  \label{fig:nvidia-signing}
+\end{figure}
+% src: SciTech-Group 2-Sunday.pptx.pdf, slide 7 (bổ sung) -- photo and its caption
+% NOTE: the backdrop in the photo reads "Memorandum Of Understanding Signing Ceremony ... Hanoi, April 23, 2024", while the PDF (p.2) calls the 23 April 2024 agreement a "comprehensive strategic partnership". Not a contradiction in date, but please check the wording.
+
+
+% -------------------------------------------------
+% PDF section 5
+% -------------------------------------------------
+\chapter{Technological Capability}
+
+The THIO model (Technology Atlas; Sharif) describes technology as four components: technoware, humanware, infoware and orgaware.
+% src: FPT Technology Management.pdf, p.3
+
+\begin{table}[htbp]
+  \centering
+  \small
+  \caption{THIO components: FPT evidence}
+  \label{tab:thio}
+  \begin{tabular}{>{\raggedright\arraybackslash}p{2.6cm}>{\raggedright\arraybackslash}p{11.8cm}}
+    \toprule
+    \textbf{Component} & \textbf{FPT evidence} \\
+    \midrule
+    Technoware & AI Factories with NVIDIA H100/H200 GPUs, B300 from 2026; TOP500 \#36 and \#38 (June 2025) \cite{S7,S10} \\ \addlinespace
+    Humanware & Partnership with Mila (Quebec AI Institute) since June 2020, renewed 2023; AI research hub in Quy Nhon \cite{S15} \\ \addlinespace
+    Infoware & FleziPT delivery platform; patents for AI4Code, SoundAI and Akabot \cite{S13,S14,S18} \\ \addlinespace
+    Orgaware & CASAN five-level AI maturity framework; ISO/IEC 42001 certified AI management system \cite{S22,S23} \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+% src: FPT Technology Management.pdf, p.3 (table); slide 8 (same four components)
+
+We do not compute a technology contribution coefficient (TCC), because public data does not support reliable 0--1 ratings for each component. Using UNIDO's capability categories, our assessment is that FPT is strong in acquisitive and operative capability -- it runs two AI Factories above 90\% utilisation -- while its innovative capability is applied: it patents applications but does not develop its own foundation models.
+% src: FPT Technology Management.pdf, p.3; slide 8 ("UNIDO capability: strong at acquiring & operating; innovation = applied patents")
 
 
 
@@ -186,11 +351,26 @@
 % Responsible: Minh
 % at 5. Technology exploitation and commercialisation
 % -------------------------------------------------
-\chapter{Technology Exploitation \& Commercialisation}
+\chapter{Technology Exploitation}
+% NOTE: chapter title changed from "Technology Exploitation \& Commercialisation" to the PDF heading "6. Technology exploitation" (p.3), as the chapter list must match the PDF. Revert if you prefer the old title.
 
 A technology creates value only when customers adopt and pay for it. FPT earns from AI in three ways, summarised in Table~\ref{tab:channels}.
+% NOTE: existing text, not found in the PDF. The PDF (p.3) classifies exploitation as in-house development / joint commercialisation / selling technology (written below), not as the three channels of Table~\ref{tab:channels}. The claim "creates value only when customers adopt and pay for it" is also not in the PDF.
+
+Technology can be exploited through in-house development, joint commercialisation or selling technology.
+% src: FPT Technology Management.pdf, p.3
+
+\textbf{In-house development (main route).} In September 2025 FPT signed a five-year, US\$256m contract -- its largest to date -- to deliver AI-augmented digital transformation services to an unnamed Asian energy company \cite{S24}. In May--June 2026 it signed six AI transformation MoUs in Thailand and Singapore, with UOB, SCG, SATS, ComfortDelGro, CPF and Sembcorp \cite{S25}. The FPT.AI platform serves more than 200 enterprise clients \cite{S26}.
+% src: FPT Technology Management.pdf, p.3; slide 9
+
+\textbf{Joint commercialisation.} The Japanese AI Factory is co-owned with Sumitomo and SBI, giving access to their client networks \cite{S6}. The NAVER Cloud MoU covers joint AI Factory and GPU-as-a-Service business \cite{S9}.
+% src: FPT Technology Management.pdf, p.3; slide 9
+
+\textbf{Selling technology.} We found no public evidence that FPT licenses or sells its AI technology.
+% src: FPT Technology Management.pdf, p.4; slide 9
 
 \section{Three commercialisation channels}
+% NOTE: existing section, heading not in the PDF. The whole section (table + three paragraphs) uses a classification that is not in the PDF and cites keys outside the PDF source list (A22, A26, A27, M6). Details per paragraph below.
 
 \begin{table}[htbp]
   \centering
@@ -207,20 +387,35 @@ A technology creates value only when customers adopt and pay for it. FPT earns f
     \bottomrule
   \end{tabular}
 \end{table}
+% NOTE: existing table, not found in the PDF: the three channels, "what clients pay for", the materials-group contract (April 2026), 10,220 agents, and "clients mainly banks and technology companies" are not in the PDF. Also, row 1 cites S25 (six partnerships in Thailand/Singapore) while the paragraph below cites A22 for the same contract.
 
 \textbf{AI transformation projects:} In April 2026, FPT signed a contract worth tens of millions of US dollars with a global materials group to move the group toward an agentic AI operating model on FleziPT \cite{A22}. In May 2026, it announced 6 AI transformation partnerships in Thailand and Singapore, with partners including UOB, SCG, SATS and ComfortDelGro; these include memoranda of understanding and are not described as paid contracts \cite{S25}. In 2025, it signed a record USD~256~million AI-powered digital solutions contract with an energy company \cite{A27}.
+% src (partial): FPT Technology Management.pdf, p.3 -- six partnerships with UOB, SCG, SATS, ComfortDelGro; US$256m energy contract
+% NOTE: not in the PDF: the April 2026 materials-group contract and "agentic AI operating model on FleziPT"; "not described as paid contracts". PDF says "May--June 2026" and "MoUs" (also lists CPF and Sembcorp), and dates the US$256m contract September 2025, five-year, cited [S24] (here cited A27). Duplicates the "In-house development" paragraph above.
 
 \textbf{AI agents:} In 2025, FPT.AI reported 10,220 AI agents deployed in business operations and more than 200 customers in 15 countries. Separately, FPT's language models processed 169 million requests \cite{A26}. Typical uses include customer service, sales support and document processing.
+% src (partial): FPT Technology Management.pdf, p.3 -- FPT.AI serves more than 200 enterprise clients [S26]
+% NOTE: not in the PDF: 10,220 agents, 15 countries, 169 million requests, typical uses.
 
 \textbf{GPU cloud:} Companies rent AI Factory capacity to train or run their own models. Analysts report that these clients are mainly banks and technology companies \cite{M6}.
+% NOTE: not found in the PDF section 6. The PDF only touches on this in section 9 (p.5, "Is the AI Factory just GPU rental? Partly. ..."); "clients are mainly banks and technology companies" is not in the PDF.
 
 \section{Financial results}
+% NOTE: existing heading; the corresponding PDF heading (p.4) is "Commercialisation results".
 
 AI and data analytics revenue was VND~2,612 billion in 2025 (+40.7\%), equivalent to about USD~100~million and 15.5\% of digital-transformation revenue \cite{M1,M6}. It reached VND~1,842 billion in H1 2026 (+54\%) and VND~2,915 billion in 9M2026 (+55\%), about 7.3\% of group revenue (our calculation: 2,915 / 40,023) \cite{M14,S2}.
+% src (partial): FPT Technology Management.pdf, p.4 -- VND 2,612bn (2025), VND 2,915bn 9M2026 (+55%), about 7.3% of group revenue [S2]
+% NOTE: not in the PDF: +40.7% for 2025, "about USD 100 million", "15.5% of digital-transformation revenue", H1 2026 VND 1,842bn (+54%). The PDF cites only [S2] for these figures.
 
 At foreign level, FPT won 16 projects worth more than USD~10~million each in 9M2026, down from 19 a year earlier, while the number of contracts of at least USD~1~million rose 29\% to 163 \cite{M15}. In 2025, newly signed AI and cloud revenue was VND~1,540 billion, and recognised revenue was VND~913 billion (+48.4\%) \cite{S16}.
+% NOTE: existing paragraph, not found in the PDF (16 / 19 projects > USD 10m, 163 contracts >= USD 1m, VND 1,540bn signed and VND 913bn recognised AI and cloud revenue).
 
 These figures should be interpreted with caution. Adoption figures such as agents, requests show usage, not profit. Judging commercial success requires revenue, margin and client retention data, and FPT discloses only part of this.
+% src (partial): FPT Technology Management.pdf, p.4 -- profitability not proven because AI margins / ROI are not disclosed
+% NOTE: "agents, requests" and "client retention data" are not in the PDF.
+
+The 9M2026 figure is already above the full-year 2025 figure. Its 55\% growth is about four times the group's 12.4\% growth \cite{S2}. Growth and utilisation are proven; profitability is not, because FPT does not disclose AI margins or return on investment.
+% src: FPT Technology Management.pdf, p.4 (added: ideas missing from the existing text above); slide 10 (same results: VND 2,915bn, about 7.3%, >90% utilisation, margins and ROI not disclosed)
 
 
 
@@ -230,24 +425,47 @@ These figures should be interpreted with caution. Adoption figures such as agent
 % Responsible: Minh
 % at 6. Technology protection, governance and risk
 % -------------------------------------------------
-\chapter{Technology Protection, Governance \& Risk}
+\chapter{Technology Protection}
+% NOTE: chapter title changed from "Technology Protection, Governance \& Risk" to the PDF heading "7. Technology protection" (p.4), as the chapter list must match the PDF. Revert if you prefer the old title.
 Protection means keeping control of the value a technology creates. For FPT, this has three parts: intellectual property, certified governance and regulatory compliance.
+% NOTE: existing text, not found in the PDF. The PDF (p.4) defines protection differently (next paragraph) and does not split it into these three parts.
+
+Protection management covers identifying own and shared technology assets, managing the IP portfolio, managing knowledge workers' IP, and managing IP in collaborations.
+% src: FPT Technology Management.pdf, p.4
 
 \section{Intellectual property}
+% NOTE: existing heading, not in the PDF. It covers the PDF run-in parts "Own and shared assets", "Patent portfolio" and "IP in collaborations" (p.4).
 
 FPT protects its intellectual property through the patents described in Chapter~II, through proprietary platform know-how, and through contracts with clients and partners. Because the base models belong to OpenAI, NAVER or open-source projects, FPT's patents protect only its own application layers. In practice, process know-how and client relationships are more important protections.
+% src (partial): FPT Technology Management.pdf, p.4 -- "IP in collaborations": base models remain the IP of OpenAI, NAVER or open-source projects, so FPT can protect only its application layer
+% NOTE: "patents described in Chapter~II" -- Chapter II is now "Company background"; the patents are described below (PDF p.4) and in Chapter "Technological Capability". "contracts with clients and partners" and "process know-how and client relationships are more important protections" are not in the PDF (p.5 only says FPT "keeps delivery know-how in-house").
+
+\textbf{Own and shared assets.} FPT's own assets include FleziPT, AI4Code, Akabot and its chip designs. Shared or external assets include NVIDIA GPUs and the models of OpenAI and NAVER.
+% src: FPT Technology Management.pdf, p.4 (added: missing from the existing text); slide 11
+
+\textbf{Patent portfolio.} FPT obtained a US patent for a neural network system that generates and ranks source code, used in AI4Code, describing itself as the first Vietnamese company with such a patent (2025) \cite{S13}. It received a US patent for SoundAI acoustic anomaly detection (November 2025) \cite{S13} and patents for Akabot's document classification in the US (2023) and Taiwan (2026); Akabot serves nearly 2,000 customers \cite{S14}.
+% src: FPT Technology Management.pdf, p.4 (added: missing from the existing text); slide 11
+% NOTE: the AI4Code patent is cited to [S13], whose title is about the SoundAI acoustic anomaly detection patent; please check the source for AI4Code.
 
 \section{Certified governance}
+% NOTE: existing heading, not in the PDF. It corresponds to the PDF run-in part "Security and compliance" (p.4).
 
 FPT's governance is evidenced by external certification:
+% src: FPT Technology Management.pdf, p.4 ("Security and compliance")
 
 \begin{itemize}
-  \item \textbf{ISO/IEC 42001 (AI management).} FPT Software was the first Vietnamese company to receive accredited certification for ISO/IEC 42001, the international standard for AI management systems \cite{S23,M11}.
+  \item \textbf{ISO/IEC 42001 (AI management).} FPT Software was the first Vietnamese company to receive accredited certification for ISO/IEC 42001, the international standard for AI management systems \cite{S23,M11}. The certification for its AI management system was received in January 2026 \cite{S23}.
+  % src (partial): FPT Technology Management.pdf, p.4 -- accredited ISO/IEC 42001 certification for its AI management system, January 2026 [S23]; date sentence added (missing from the existing text)
+  % NOTE: "FPT Software" and "first Vietnamese company" are not in the PDF (PDF says "FPT").
   \item \textbf{SOC~2 and SOC~3 (cloud security).} The Vietnam AI Factory holds SOC~2 Type~II and SOC~3 reports, while the Japan site holds a SOC~2 Type~I report \cite{S28}.
+  % src: FPT Technology Management.pdf, p.4
   \item \textbf{HITRUST AI Security (AI security).} In February 2026, FPT's Hanoi data centre received HITRUST r2 certification, including the HITRUST AI Security Certification, which covers threats such as data poisoning, model inversion and prompt injection \cite{M18}.
+  % src (partial): FPT Technology Management.pdf, p.4 -- [S27]
+  % NOTE: "covers threats such as data poisoning, model inversion and prompt injection" is not in the PDF; the PDF cites [S27] (here M18).
 \end{itemize}
 
 \section{Regulatory compliance: Vietnam's AI Law}
+% NOTE: existing heading, not in the PDF; content corresponds to the last sentence of "Security and compliance" (p.4).
 
 Regulation is now a formal constraint. Vietnam's Law on Artificial Intelligence (No.~134/2025/QH15) was passed on 10~December 2025 with 429 of 434 votes and took effect on 1~March 2026 \cite{M19}. The law:
 
@@ -257,12 +475,18 @@ Regulation is now a formal constraint. Vietnam's Law on Artificial Intelligence 
   \item requires important AI applications in essential sectors to run on national AI infrastructure;
   \item gives existing systems in the medical, education and financial sectors 18 months to comply \cite{M20}.
 \end{itemize}
+% src (partial): FPT Technology Management.pdf, p.4 -- Law No. 134/2025/QH15, passed 10 December 2025, in force 1 March 2026, three risk tiers, conformity assessment for high-risk systems [S29]; slide 11 ("in force from 1 March 2026")
+% NOTE: not in the PDF: "429 of 434 votes", item 3 (national AI infrastructure) and item 4 (18 months for medical, education and financial sectors). The PDF cites [S29] (here M19, M20).
 
 The law adds compliance costs to FPT's banking and healthcare work. At the same time, its emphasis on local infrastructure could favour domestic providers; this second point is our interpretation, not a benefit stated by FPT.
+% NOTE: not found in the PDF section 7. The closest source text is p.5 (section 9): the AI Law "adds compliance cost for high-risk systems, but FPT is already prepared with ISO/IEC 42001 and HITRUST AI certification". "banking and healthcare" and "could favour domestic providers" are not in the PDF.
 
 \section{Key risks and management responses}
+% NOTE: existing heading, not in the PDF; corresponds to the PDF run-in part "Risks to manage (our analysis)" (p.4). The PDF gives no management responses.
 
 Table~\ref{tab:risks} sets out the key risks identified in our analysis, together with possible management responses. These are analytical risks, not failures that FPT has reported.
+% src (partial): FPT Technology Management.pdf, p.4 -- risks are "our analysis"
+% NOTE: "possible management responses" are not in the PDF.
 
 \begin{table}[htbp]
   \centering
@@ -280,26 +504,37 @@ Table~\ref{tab:risks} sets out the key risks identified in our analysis, togethe
     \bottomrule
   \end{tabular}
 \end{table}
+% src (partial): FPT Technology Management.pdf, p.4 -- idle GPU capacity if demand weakens; dependence on NVIDIA and model suppliers; model errors and data-privacy incidents; fewer billable hours as AI speeds up delivery
+% NOTE: not in the PDF: the whole "Possible response" column; "GPU costs", "at clients", "revenue cannibalisation"; the PDF says "model suppliers" without naming OpenAI and NAVER.
 
 
 % -------------------------------------------------
-% CHAPTER V - Performance Evaluation 
+% CHAPTER V - Performance Evaluation
 % Responsible: Khanh
 % at 7. Performance evaluation
 % -------------------------------------------------
 \chapter{Performance Evaluation}
+% NOTE: this whole chapter is existing text and the PDF has NO "Performance Evaluation" section, so the chapter list no longer matches the PDF while it stays. Its content overlaps PDF section 4 (AI Factory case), section 5 (capability), section 6 (exploitation / commercialisation results) and section 8 (conclusion); the corresponding PDF content is now written in those chapters. Kept unchanged for your decision (delete, or merge into those chapters).
 
 \section{Investment and delivery capability}
 
 We assess investment as moderate relative to developing a frontier foundation model. FPT builds on existing models and shares the Japanese AI Factory investment with minority shareholders Sumitomo and SBI \cite{A5,A8}. Co-investment limits the capital FPT must supply alone. In Q2 2026, FPT reported utilisation above 90\% and a profit at each of its Vietnamese and Japanese clusters \cite{A29}. This shows demand for installed capacity. One profitable quarter at two sites is insufficient to judge the efficiency of the investment over its life.
+% src (partial): FPT Technology Management.pdf, p.2--3 (Sumitomo/SBI shares; Q2 2026 >90% utilisation and profitable), p.5 (co-investment shares capital cost; >90% utilisation shows demand)
+% NOTE: not in the PDF: "investment as moderate relative to developing a frontier foundation model"; "One profitable quarter at two sites is insufficient to judge the efficiency of the investment over its life". Citations A5, A8, A29 are outside the PDF source list (PDF: S4, S6).
 
 The THIO framework helps explain FPT's delivery capability. Its GPU infrastructure (technoware) complements staff expertise developed through research collaboration with Mila (humanware) \cite{A16,A13}. FleziPT captures engineering knowledge in a reusable platform (infoware), while the certified AI management system gives teams common procedures (orgaware) \cite{A22,S23}. Together these support our assessment of strong acquisitive and operative capabilities: FPT can obtain technology through partners and run it at scale. Its innovative capability is applied, as illustrated by its granted US patent for acoustic anomaly detection \cite{S13}. Reliable component ratings are unavailable, so we do not calculate a Technology Contribution Coefficient.
+% src (partial): FPT Technology Management.pdf, p.3 (section 5: THIO components, UNIDO assessment, no TCC)
+% NOTE: duplicates chapter "Technological Capability" (PDF section 5). Not in the PDF: "staff expertise developed through research collaboration", "captures engineering knowledge in a reusable platform", "gives teams common procedures", "obtain technology through partners and run it at scale".
 
 \section{Adoption and profitability}
 
 In-house delivery is the main commercial route. The five-year US\$256m energy-sector contract signed in September 2025 commits FPT to deliver AI-augmented services. Its face value covers the entire engagement \cite{S24}. The six AI transformation memoranda of understanding signed in 2026, including those with UOB, SCG, SATS and ComfortDelGro, indicate prospective demand. Signing them establishes neither deployment nor recognised revenue \cite{S25}. Evidence of actual use comes from FPT.AI, which reported more than 200 enterprise clients and 10,220 active agents in 2025 \cite{A26}, and from FPT's reported deployment of Flezi Metis for an automotive technology group \pending{FPT 9M2026 results}.
+% src (partial): FPT Technology Management.pdf, p.3 (section 6, "In-house development (main route)")
+% NOTE: duplicates chapter "Technology Exploitation". Not in the PDF: "face value covers the entire engagement", "indicate prospective demand ... establishes neither deployment nor recognised revenue", 10,220 active agents, Flezi Metis for an automotive technology group.
 
 Joint commercialisation extends this route through the Japanese venture and the collaboration with NAVER Cloud on AI Factory and GPU-as-a-Service offerings \cite{A5,A7}. The sources reviewed provide no public evidence of a separate route based on selling or licensing FPT's AI technology.
+% src: FPT Technology Management.pdf, p.3--4 (section 6, "Joint commercialisation", "Selling technology")
+% NOTE: duplicates chapter "Technology Exploitation"; PDF cites [S6, S9] (here A5, A7).
 
 \begin{figure}[H]
 \centering
@@ -314,31 +549,114 @@ Joint commercialisation extends this route through the Japanese venture and the 
 \caption[Revenue growth in the first nine months of 2026]{Year-on-year revenue growth, January--September 2026. Sources: \href{https://fpt.com/en/news/fpt-s-9-months-2026-revenue-and-pbt-increase-12-4-and-17-0}{FPT nine-month results} and CafeF \cite{S2}.}
 \label{fig:ai-growth}
 \end{figure}
+% src: FPT Technology Management.pdf, p.4 (+55% vs +12.4%); same chart on slide 10 ("Revenue growth, 9M 2026")
+% NOTE: this figure belongs to PDF section 6 "Commercialisation results" (chapter "Technology Exploitation"), not to a Performance Evaluation chapter.
 
 
 
 \section{Revenue contribution and strategic progress}
 
 AI and data analytics generated VND~2,915bn in January--September 2026, already above the VND~2,612bn recorded in the whole of 2025 \cite{M1,S2}. On a year-on-year basis, revenue in this category grew by 55\%, against 12.4\% for the group after restating the prior period for FPT Telecom (Figure~\ref{fig:ai-growth}) \pending{FPT 9M2026 results}. The 42.6 percentage point gap shows a shift in the revenue mix from a small base. Dividing VND~2,915bn by group revenue of VND~40,023bn gives 7.3\% for the nine-month period. This measures the disclosed services category and cannot isolate AI embedded in other contracts.
+% src (partial): FPT Technology Management.pdf, p.1 (restated basis), p.4 (VND 2,915bn above VND 2,612bn; +55% vs +12.4%; about 7.3%)
+% NOTE: duplicates chapter "Technology Exploitation". Not in the PDF: "42.6 percentage point gap ... shift in the revenue mix from a small base", "cannot isolate AI embedded in other contracts". \pending{FPT 9M2026 results} corresponds to [S2] in the PDF.
 
 Shared investment, sustained customer use and recognised revenue support a qualitative judgement that FPT's strategy is coherent and operationally on track. The available results do not disclose an operating margin or return on investment (ROI) for the AI business as a whole. Its overall financial payoff therefore remains unproven.
+% src: FPT Technology Management.pdf, p.1 and p.4 (coherent and operationally on track; margins / ROI not disclosed; payoff not yet proven)
+% NOTE: duplicates the Executive Summary and Conclusion.
 
 
 % -------------------------------------------------
-% CHAPTER VI - CONCLUSION 
+% CHAPTER VI - CONCLUSION
 % Responsible: Khanh
 % at 8. Conclusion
 % ------------------------------------------------
 \chapter{Conclusion}
 
 Gregory's five processes explain the logic of FPT's strategy. In identification and selection, AI posed a threat to billable software work while creating demand for enterprise automation. FPT chose to build solutions on existing models and acquired much of the necessary capability through collaboration \cite{A8,A13,A16}. It exploits that capability mainly through its own delivery teams, supplemented by joint commercialisation. Revenue in the reported AI and analytics category is growing rapidly but still makes up a small share of group sales \pending{FPT 9M2026 results}. Protection centres on what FPT develops: proprietary platforms, implementation know-how and granted patents for applications such as acoustic anomaly detection \cite{S13}. Its certified management system supports oversight, while NVIDIA GPUs and third-party models remain external technologies on which delivery depends \cite{S23,A21,A7}.
+% src (partial): FPT Technology Management.pdf, p.4 (section 8); slide 12
+% NOTE: "creating demand for enterprise automation" -- the PDF names the opportunity as AI consulting, integration and infrastructure (p.1--2). "Its certified management system supports oversight" is not in the PDF conclusion. \pending{FPT 9M2026 results} corresponds to [S2]; A8, A13, A16, A21, A7 are outside the PDF source list.
 
 Existing customer relationships help FPT identify work worth automating. Its delivery scale lets it serve clients across markets, and its technical and industry knowledge helps teams adapt models to specific workflows. These advantages support a coherent strategy and credible operational progress. The financial payoff remains open. Future assessments should track AI operating margins and ROI, exposure to GPU and model suppliers, and AI's share of group revenue under a consistent definition.
+% src (partial): FPT Technology Management.pdf, p.4 (section 8: advantage in customers, delivery scale and know-how; coherent and on track; payoff not yet proven; three things to watch); slide 12
+% NOTE: not in the PDF: the first two sentences (customer relationships help identify work worth automating; delivery scale serves clients across markets; industry knowledge adapts models to workflows) and "under a consistent definition".
+
+FPT's competitive advantage rests on customers, delivery scale and know-how rather than on owning core AI technology.
+% src: FPT Technology Management.pdf, p.4 (added: the "rather than on owning core AI technology" contrast was missing from the existing text); slide 12 ("FPT's edge: customers, delivery scale and know-how")
+
+
+% -------------------------------------------------
+% PDF section 9
+% -------------------------------------------------
+\chapter{Anticipated Questions}
+
+\begin{itemize}
+  \item \textbf{Is FPT really an AI company?} It is an AI-First transformation in progress. AI and data is about 7.3\% of revenue but grew 55\% in 9M2026, about four times faster than the group.
+  % src: FPT Technology Management.pdf, p.4
+  \item \textbf{Why does FPT not build its own large language model?} Cost and fit. A frontier model needs billions in compute and scarce researchers; Mistral raised \texteuro1.7bn in 2025 and \texteuro3bn in 2026. The trade-off is weaker ownership of core IP.
+  % src: FPT Technology Management.pdf, p.5
+  \item \textbf{Why MADM rather than BCG or scenario analysis?} The decision was a choice between discrete alternatives. BCG needs market-share data per technology and scenario analysis needs ROI forecasts; neither is public.
+  % src: FPT Technology Management.pdf, p.5
+  \item \textbf{Is buying NVIDIA GPUs `buy' or `collaborate'?} Both: purchasing GPUs is buying; the comprehensive strategic partnership around the AI Factory is collaboration.
+  % src: FPT Technology Management.pdf, p.5
+  \item \textbf{Why not calculate TCC?} Public data does not support reliable 0--1 ratings for T, H, I and O, so we used THIO qualitatively.
+  % src: FPT Technology Management.pdf, p.5
+  \item \textbf{Why sell 40\% of the Japan unit?} To share capital cost and risk and gain Sumitomo's and SBI's client networks; the price is 40\% of that unit's future profit.
+  % src: FPT Technology Management.pdf, p.5
+  \item \textbf{Is the AI Factory just GPU rental?} Partly. FPT adds local hosting in Vietnam and Japan, certified security and links to existing clients. Over 90\% utilisation shows demand, but margins could fall if GPU supply becomes abundant.
+  % src: FPT Technology Management.pdf, p.5
+  \item \textbf{What does `not disclosed' mean?} FPT reports AI revenue but not AI margins or return on investment, so the financial payoff cannot yet be confirmed.
+  % src: FPT Technology Management.pdf, p.5
+  \item \textbf{Why is 9M2026 revenue lower than FY2025 revenue?} From 2026 FPT Telecom is accounted for by the equity method, so reported revenue is smaller; growth is measured on a restated basis.
+  % src: FPT Technology Management.pdf, p.5
+  \item \textbf{How does FPT protect IP without owning the models?} It patents its application layer and keeps delivery know-how in-house; the base models remain the partners' IP.
+  % src: FPT Technology Management.pdf, p.5
+  \item \textbf{Does the AI Law help or hurt FPT?} Both: it adds compliance cost for high-risk systems, but FPT is already prepared with ISO/IEC 42001 and HITRUST AI certification.
+  % src: FPT Technology Management.pdf, p.5
+  \item \textbf{Which figures are audited?} Group revenue and profit. AI-specific figures -- AI revenue, utilisation, client counts -- are company-reported or analyst estimates.
+  % src: FPT Technology Management.pdf, p.5
+\end{itemize}
+
+
+% -------------------------------------------------
+% KEY FIGURES  (PDF p.5--6, unnumbered heading in the PDF)
+% -------------------------------------------------
+\chapter*{Key Figures}
+\addcontentsline{toc}{chapter}{Key Figures}
+\markboth{Key Figures}{}
+% NOTE: "Key figures" is unnumbered in the PDF, so it is kept unnumbered here (\chapter*).
+
+\begin{table}[htbp]
+  \centering
+  \small
+  \caption*{Key figures}
+  \begin{tabular}{>{\raggedright\arraybackslash}p{4.6cm}>{\raggedright\arraybackslash}p{7.8cm}>{\raggedright\arraybackslash}p{1.8cm}}
+    \toprule
+    \textbf{Figure} & \textbf{Value} & \textbf{Source} \\
+    \midrule
+    Group revenue, 9M2026 & VND~40,023bn, +12.4\% (restated) & \cite{S2} \\ \addlinespace
+    Group profit before tax, 9M2026 & VND~8,770bn, +17\% & \cite{S2} \\ \addlinespace
+    AI \& data revenue, FY2025 & VND~2,612bn & \cite{S2} \\ \addlinespace
+    AI \& data revenue, 9M2026 & VND~2,915bn, +55\%; $\approx$~7.3\% of group revenue & \cite{S2} \\ \addlinespace
+    NVIDIA partnership & 23 April 2024; US\$200m AI Factory plan & \cite{S5} \\ \addlinespace
+    Sumitomo / SBI & 20\% each of FPT Smart Cloud Japan; FPT 60\% & \cite{S6} \\ \addlinespace
+    TOP500, June 2025 & Japan \#36, Vietnam \#38 & \cite{S10} \\ \addlinespace
+    AI Factory utilisation & $\approx$~60\% (Feb 2026) $\rightarrow$ $>$~90\%, profitable (Q2 2026) & \cite{S3,S4} \\ \addlinespace
+    Largest contract & US\$256m over five years (Sep 2025) & \cite{S24} \\ \addlinespace
+    FPT.AI clients & 200+ enterprises & \cite{S26} \\ \addlinespace
+    Akabot customers & Nearly 2,000 & \cite{S14} \\ \addlinespace
+    Vietnam AI Law & In force from 1 March 2026 & \cite{S29} \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+% src: FPT Technology Management.pdf, p.5--6
 
 
 % ===================== REFERENCES =====================
 \chapter*{References}
 \addcontentsline{toc}{chapter}{References}
+\markboth{References}{}
+\nocite{COURSE_STM}
+% src: FPT Technology Management.pdf, p.6 ("Sources": [S1]--[S29] are cited in the text; last line "Course slides: Science & Technology Management, Chapters 1, 3, 4--5 and 6--7" = COURSE_STM)
 \printbibliography[heading=none]
 
 
