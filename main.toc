@@ -1,20 +1,28 @@
 \contentsline {chapter}{\numberline {I}Introduction}{4}{chapter.1}%
 \contentsline {chapter}{\numberline {II}Company background and the AI-First shift}{5}{chapter.2}%
 \contentsline {chapter}{\numberline {III}Technology Identification}{6}{chapter.3}%
-\contentsline {chapter}{\numberline {IV}Technology Selection}{7}{chapter.4}%
-\contentsline {chapter}{\numberline {V}Technology Acquisition}{8}{chapter.5}%
-\contentsline {chapter}{\numberline {VI}Technology Exploitation \& Commercialisation}{9}{chapter.6}%
-\contentsline {section}{\numberline {1}Three commercialisation channels}{9}{section.6.1}%
-\contentsline {section}{\numberline {2}Financial results}{10}{section.6.2}%
-\contentsline {chapter}{\numberline {VII}Technology Protection, Governance \& Risk}{11}{chapter.7}%
-\contentsline {section}{\numberline {1}Intellectual property}{11}{section.7.1}%
-\contentsline {section}{\numberline {2}Certified governance}{11}{section.7.2}%
-\contentsline {section}{\numberline {3}Regulatory compliance: Vietnam's AI Law}{11}{section.7.3}%
-\contentsline {section}{\numberline {4}Key risks and management responses}{12}{section.7.4}%
-\contentsline {chapter}{\numberline {VIII}Performance Evaluation}{13}{chapter.8}%
-\contentsline {section}{\numberline {1}Investment and delivery capability}{13}{section.8.1}%
-\contentsline {section}{\numberline {2}Adoption and profitability}{13}{section.8.2}%
-\contentsline {section}{\numberline {3}Revenue contribution and strategic progress}{14}{section.8.3}%
-\contentsline {chapter}{\numberline {IX}Conclusion}{15}{chapter.9}%
-\contentsline {chapter}{References}{16}{chapter*.6}%
+\contentsline {section}{\numberline {1}Key drivers of AI identification}{6}{section.3.1}%
+\contentsline {section}{\numberline {2}Strategic implications for FPT}{6}{section.3.2}%
+\contentsline {chapter}{\numberline {IV}Technology Selection}{8}{chapter.4}%
+\contentsline {section}{\numberline {1}Technology selection approach}{8}{section.4.1}%
+\contentsline {section}{\numberline {2}Comparison of strategic alternatives}{8}{section.4.2}%
+\contentsline {section}{\numberline {3}Selected technology priorities}{8}{section.4.3}%
+\contentsline {chapter}{\numberline {V}Technology Acquisition}{9}{chapter.5}%
+\contentsline {section}{\numberline {1}Technology acquisition methods}{9}{section.5.1}%
+\contentsline {section}{\numberline {2}Rationale and trade-offs}{9}{section.5.2}%
+\contentsline {section}{\numberline {3}Case study: FPT AI Factory}{10}{section.5.3}%
+\contentsline {chapter}{\numberline {VI}Technology Exploitation \& Commercialisation}{11}{chapter.6}%
+\contentsline {section}{\numberline {1}Three commercialisation channels}{11}{section.6.1}%
+\contentsline {section}{\numberline {2}Financial results}{12}{section.6.2}%
+\contentsline {chapter}{\numberline {VII}Technology Protection, Governance \& Risk}{13}{chapter.7}%
+\contentsline {section}{\numberline {1}Intellectual property}{13}{section.7.1}%
+\contentsline {section}{\numberline {2}Certified governance}{13}{section.7.2}%
+\contentsline {section}{\numberline {3}Regulatory compliance: Vietnam's AI Law}{13}{section.7.3}%
+\contentsline {section}{\numberline {4}Key risks and management responses}{14}{section.7.4}%
+\contentsline {chapter}{\numberline {VIII}Performance Evaluation}{15}{chapter.8}%
+\contentsline {section}{\numberline {1}Investment and delivery capability}{15}{section.8.1}%
+\contentsline {section}{\numberline {2}Adoption and profitability}{15}{section.8.2}%
+\contentsline {section}{\numberline {3}Revenue contribution and strategic progress}{16}{section.8.3}%
+\contentsline {chapter}{\numberline {IX}Conclusion}{17}{chapter.9}%
+\contentsline {chapter}{References}{18}{chapter*.11}%
 \contentsfinish 
