@@ -25,6 +25,9 @@
 \usepackage{adjustbox}
 \usepackage{setspace}
 \usepackage{indentfirst}
+\usepackage{chngcntr}
+\counterwithout{table}{chapter}
+\counterwithout{figure}{chapter}
 \setlength{\parindent}{1.5em}
 \setlength{\parskip}{4pt}
 \setstretch{1.2}
@@ -155,7 +158,15 @@
 % ===================== TABLE OF CONTENTS =====================
 \setcounter{tocdepth}{0}
 \tableofcontents
-% \listoffigures
+\clearpage
+\addcontentsline{toc}{chapter}{List of Tables}
+\setcounter{tocdepth}{1}
+\listoftables
+
+\clearpage
+\addcontentsline{toc}{chapter}{List of Figures}
+\setcounter{tocdepth}{1}
+\listoffigures
 
 \providecommand{\pending}[1]{\textbf{[#1]}}
 
