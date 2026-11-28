@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.6.29)  28 NOV 2026 16:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.6.29)  28 NOV 2026 17:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1268,17 +1268,17 @@ Chapter V.
 ]
 Chapter VI.
 
-Underfull \hbox (badness 1057) in paragraph at lines 189--189
+Underfull \hbox (badness 1057) in paragraph at lines 202--202
 |\T5/lmr/bx/n/20.74 (+20) VI. TECH-NOL-OGY EX-PLOITA-TION &
  []
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 200.
+(Font)              <10.95> on input line 213.
 [9
 
 ] [10]
 Chapter VII.
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 245.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 258.
 (C:\Program Files\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) [11
@@ -1292,18 +1292,18 @@ Chapter IX.
 [15
 
 ]
-LaTeX Font Info:    Trying to load font information for T5+lmtt on input line 342.
+LaTeX Font Info:    Trying to load font information for T5+lmtt on input line 355.
  (C:\Program Files\MiKTeX\tex/latex/lm\t5lmtt.fd
 File: t5lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 
 Package microtype Warning: I cannot find a protrusion list for font
 (microtype)                `T5/lmtt/m/n/12'. Switching off
-(microtype)                protrusion for this font on input line 342.
+(microtype)                protrusion for this font on input line 355.
 
 [16
 
-] [17] [18] (main.aux)
+] [17] [18] [19] (main.aux)
  ***********
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-06-18>
@@ -1315,17 +1315,17 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 36224 strings out of 467510
- 671506 string characters out of 5418903
- 1618306 words of memory out of 5000000
- 64687 multiletter control sequences out of 15000+600000
- 731126 words of font info for 161 fonts, out of 8000000 for 9000
+ 36263 strings out of 467510
+ 672309 string characters out of 5418903
+ 1619511 words of memory out of 5000000
+ 64702 multiletter control sequences out of 15000+600000
+ 731893 words of font info for 170 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  102i,11n,107p,1019b,1776s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmro12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on main.pdf (18 pages, 340959 bytes).
+Output written on main.pdf (19 pages, 352420 bytes).
 PDF statistics:
- 407 PDF objects out of 1000 (max. 8388607)
- 68 named destinations out of 1000 (max. 500000)
+ 441 PDF objects out of 1000 (max. 8388607)
+ 74 named destinations out of 1000 (max. 500000)
  43178 words of extra memory for PDF output out of 51595 (max. 10000000)
 
