@@ -19,6 +19,646 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global/global}
+    \entry{M3}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=550eaee1f9011d5de7f3615bea3bf569}{%
+           family={{FPT Corporation}},
+           familyi={F\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {FPT Annual Report 2025}%
+      }
+      \strng{namehash}{550eaee1f9011d5de7f3615bea3bf569}
+      \strng{fullhash}{550eaee1f9011d5de7f3615bea3bf569}
+      \strng{fullhashraw}{550eaee1f9011d5de7f3615bea3bf569}
+      \strng{bibnamehash}{550eaee1f9011d5de7f3615bea3bf569}
+      \strng{authorbibnamehash}{550eaee1f9011d5de7f3615bea3bf569}
+      \strng{authornamehash}{550eaee1f9011d5de7f3615bea3bf569}
+      \strng{authorfullhash}{550eaee1f9011d5de7f3615bea3bf569}
+      \strng{authorfullhashraw}{550eaee1f9011d5de7f3615bea3bf569}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Business Strategy section}
+      \field{title}{{General Context}}
+      \field{urlday}{25}
+      \field{urlmonth}{11}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://bctn2025.fpt.com/business-strategy/general-context/
+      \endverb
+      \verb{url}
+      \verb https://bctn2025.fpt.com/business-strategy/general-context/
+      \endverb
+    \endentry
+    \entry{A22}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=550eaee1f9011d5de7f3615bea3bf569}{%
+           family={{FPT Corporation}},
+           familyi={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{550eaee1f9011d5de7f3615bea3bf569}
+      \strng{fullhash}{550eaee1f9011d5de7f3615bea3bf569}
+      \strng{fullhashraw}{550eaee1f9011d5de7f3615bea3bf569}
+      \strng{bibnamehash}{550eaee1f9011d5de7f3615bea3bf569}
+      \strng{authorbibnamehash}{550eaee1f9011d5de7f3615bea3bf569}
+      \strng{authornamehash}{550eaee1f9011d5de7f3615bea3bf569}
+      \strng{authorfullhash}{550eaee1f9011d5de7f3615bea3bf569}
+      \strng{authorfullhashraw}{550eaee1f9011d5de7f3615bea3bf569}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://fpt.com/en/news/fpt-signs-tens-of-millions-of-dollars-ai-contract-with-a-leading-global-materials-corporation}}
+      \field{month}{4}
+      \field{title}{{FPT} signs tens-of-millions-of-dollars {AI} contract with a leading global materials corporation}
+      \field{year}{2026}
+    \endentry
+    \entry{A8}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=550eaee1f9011d5de7f3615bea3bf569}{%
+           family={{FPT Corporation}},
+           familyi={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{550eaee1f9011d5de7f3615bea3bf569}
+      \strng{fullhash}{550eaee1f9011d5de7f3615bea3bf569}
+      \strng{fullhashraw}{550eaee1f9011d5de7f3615bea3bf569}
+      \strng{bibnamehash}{550eaee1f9011d5de7f3615bea3bf569}
+      \strng{authorbibnamehash}{550eaee1f9011d5de7f3615bea3bf569}
+      \strng{authornamehash}{550eaee1f9011d5de7f3615bea3bf569}
+      \strng{authorfullhash}{550eaee1f9011d5de7f3615bea3bf569}
+      \strng{authorfullhashraw}{550eaee1f9011d5de7f3615bea3bf569}
+      \field{extraname}{3}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://bctn2025.fpt.com/business-strategy/fpts-development-strategy-for-the-2026-2028-period/}}
+      \field{title}{Annual Report 2025: Development strategy for 2026--2028}
+      \field{year}{2026}
+    \endentry
+    \entry{A15}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=b28e0cdadcb05afe05f814b29093d1f5}{%
+           family={{FPT Software}},
+           familyi={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{b28e0cdadcb05afe05f814b29093d1f5}
+      \strng{fullhash}{b28e0cdadcb05afe05f814b29093d1f5}
+      \strng{fullhashraw}{b28e0cdadcb05afe05f814b29093d1f5}
+      \strng{bibnamehash}{b28e0cdadcb05afe05f814b29093d1f5}
+      \strng{authorbibnamehash}{b28e0cdadcb05afe05f814b29093d1f5}
+      \strng{authornamehash}{b28e0cdadcb05afe05f814b29093d1f5}
+      \strng{authorfullhash}{b28e0cdadcb05afe05f814b29093d1f5}
+      \strng{authorfullhashraw}{b28e0cdadcb05afe05f814b29093d1f5}
+      \field{extraname}{1}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://fptsoftware.com/newsroom/news-and-press-releases/press-release/fpt-announces-first-acquisition-in-japan-with-full-ownership-of-next-advanced-communications-nac}}
+      \field{month}{3}
+      \field{title}{{FPT} announces first acquisition in Japan with full ownership of Next Advanced Communications ({NAC})}
+      \field{year}{2024}
+    \endentry
+    \entry{S20}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=5f46782611de55f109003b4dac1b83e0}{%
+           family={{Mistral AI}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{5f46782611de55f109003b4dac1b83e0}
+      \strng{fullhash}{5f46782611de55f109003b4dac1b83e0}
+      \strng{fullhashraw}{5f46782611de55f109003b4dac1b83e0}
+      \strng{bibnamehash}{5f46782611de55f109003b4dac1b83e0}
+      \strng{authorbibnamehash}{5f46782611de55f109003b4dac1b83e0}
+      \strng{authornamehash}{5f46782611de55f109003b4dac1b83e0}
+      \strng{authorfullhash}{5f46782611de55f109003b4dac1b83e0}
+      \strng{authorfullhashraw}{5f46782611de55f109003b4dac1b83e0}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://mistral.ai/news/mistral-ai-raises-1-7-b-to-accelerate-technological-progress-with-ai/}}
+      \field{month}{9}
+      \field{title}{Mistral {AI} raises {EUR} 1.7B (Series {C})}
+      \field{year}{2025}
+    \endentry
+    \entry{S21}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=45e219f82e92a2a76f7665cd19d34e1e}{%
+           family={{TechCrunch}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {TechCrunch}%
+      }
+      \strng{namehash}{45e219f82e92a2a76f7665cd19d34e1e}
+      \strng{fullhash}{45e219f82e92a2a76f7665cd19d34e1e}
+      \strng{fullhashraw}{45e219f82e92a2a76f7665cd19d34e1e}
+      \strng{bibnamehash}{45e219f82e92a2a76f7665cd19d34e1e}
+      \strng{authorbibnamehash}{45e219f82e92a2a76f7665cd19d34e1e}
+      \strng{authornamehash}{45e219f82e92a2a76f7665cd19d34e1e}
+      \strng{authorfullhash}{45e219f82e92a2a76f7665cd19d34e1e}
+      \strng{authorfullhashraw}{45e219f82e92a2a76f7665cd19d34e1e}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{8}
+      \field{month}{9}
+      \field{title}{{Mistral Raises €3B as Sovereign AI Becomes Big Business}}
+      \field{urlday}{28}
+      \field{urlmonth}{11}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://techcrunch.com/2026/09/08/mistral-raises-e3b-as-sovereign-ai-becomes-big-business/
+      \endverb
+      \verb{url}
+      \verb https://techcrunch.com/2026/09/08/mistral-raises-e3b-as-sovereign-ai-becomes-big-business/
+      \endverb
+    \endentry
+    \entry{A17}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=fde54f191f18883da1bcb7d534df3e8c}{%
+           family={{VnEconomy}},
+           familyi={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{fde54f191f18883da1bcb7d534df3e8c}
+      \strng{fullhash}{fde54f191f18883da1bcb7d534df3e8c}
+      \strng{fullhashraw}{fde54f191f18883da1bcb7d534df3e8c}
+      \strng{bibnamehash}{fde54f191f18883da1bcb7d534df3e8c}
+      \strng{authorbibnamehash}{fde54f191f18883da1bcb7d534df3e8c}
+      \strng{authornamehash}{fde54f191f18883da1bcb7d534df3e8c}
+      \strng{authorfullhash}{fde54f191f18883da1bcb7d534df3e8c}
+      \strng{authorfullhashraw}{fde54f191f18883da1bcb7d534df3e8c}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://en.vneconomy.vn/fpt-launches-200-mln-ai-factory-in-japan.htm}}
+      \field{month}{11}
+      \field{title}{{FPT} launches \$200 mln {AI} factory in Japan}
+      \field{year}{2024}
+    \endentry
+    \entry{S18}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=52768c35bf4f17d9aa91cc4211475bc4}{%
+           family={{Business Wire}},
+           familyi={B\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Business Wire}%
+      }
+      \strng{namehash}{52768c35bf4f17d9aa91cc4211475bc4}
+      \strng{fullhash}{52768c35bf4f17d9aa91cc4211475bc4}
+      \strng{fullhashraw}{52768c35bf4f17d9aa91cc4211475bc4}
+      \strng{bibnamehash}{52768c35bf4f17d9aa91cc4211475bc4}
+      \strng{authorbibnamehash}{52768c35bf4f17d9aa91cc4211475bc4}
+      \strng{authornamehash}{52768c35bf4f17d9aa91cc4211475bc4}
+      \strng{authorfullhash}{52768c35bf4f17d9aa91cc4211475bc4}
+      \strng{authorfullhashraw}{52768c35bf4f17d9aa91cc4211475bc4}
+      \field{extraname}{1}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{12}
+      \field{month}{8}
+      \field{title}{{FPT Launches AI-First Platform FleziPT}}
+      \field{urlday}{28}
+      \field{urlmonth}{11}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.businesswire.com/news/home/20250812864322/en
+      \endverb
+      \verb{url}
+      \verb https://www.businesswire.com/news/home/20250812864322/en
+      \endverb
+    \endentry
+    \entry{M4}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=550eaee1f9011d5de7f3615bea3bf569}{%
+           family={{FPT Corporation}},
+           familyi={F\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {FPT Corporation}%
+      }
+      \strng{namehash}{550eaee1f9011d5de7f3615bea3bf569}
+      \strng{fullhash}{550eaee1f9011d5de7f3615bea3bf569}
+      \strng{fullhashraw}{550eaee1f9011d5de7f3615bea3bf569}
+      \strng{bibnamehash}{550eaee1f9011d5de7f3615bea3bf569}
+      \strng{authorbibnamehash}{550eaee1f9011d5de7f3615bea3bf569}
+      \strng{authornamehash}{550eaee1f9011d5de7f3615bea3bf569}
+      \strng{authorfullhash}{550eaee1f9011d5de7f3615bea3bf569}
+      \strng{authorfullhashraw}{550eaee1f9011d5de7f3615bea3bf569}
+      \field{extraname}{4}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{30}
+      \field{month}{12}
+      \field{title}{{FPT Exports the First Commercial Chip Shipment to a Leading Japanese Electronics Company}}
+      \field{urlday}{25}
+      \field{urlmonth}{11}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://fpt.com/en/news/fpt-news/fpt-xuat-khau-lo-chip-thuong-mai-dau-tien-sang-cong-ty-dien-tu-hang-dau-nhat-ban
+      \endverb
+      \verb{url}
+      \verb https://fpt.com/en/news/fpt-news/fpt-xuat-khau-lo-chip-thuong-mai-dau-tien-sang-cong-ty-dien-tu-hang-dau-nhat-ban
+      \endverb
+    \endentry
+    \entry{M5}{online}{}{}
+      \name{author}{2}{}{%
+        {{hash=78ad68b6470f510a4d90861d75a441da}{%
+           family={{Minh Duy}},
+           familyi={M\bibinitperiod}}}%
+        {{hash=a4be66aa343dca91dbcd7fe100a787d5}{%
+           family={{Duc Thien}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Tuoi Tre News}%
+      }
+      \strng{namehash}{a5eae28b28af64eecd88c630925a0358}
+      \strng{fullhash}{a5eae28b28af64eecd88c630925a0358}
+      \strng{fullhashraw}{a5eae28b28af64eecd88c630925a0358}
+      \strng{bibnamehash}{a5eae28b28af64eecd88c630925a0358}
+      \strng{authorbibnamehash}{a5eae28b28af64eecd88c630925a0358}
+      \strng{authornamehash}{a5eae28b28af64eecd88c630925a0358}
+      \strng{authorfullhash}{a5eae28b28af64eecd88c630925a0358}
+      \strng{authorfullhashraw}{a5eae28b28af64eecd88c630925a0358}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{31}
+      \field{month}{12}
+      \field{title}{{Vietnam Exports 1st Commercial Chip Shipment to Japan}}
+      \field{urlday}{25}
+      \field{urlmonth}{11}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://news.tuoitre.vn/vietnam-exports-1st-commercial-chip-shipment-to-japan-103251231121219901.htm
+      \endverb
+      \verb{url}
+      \verb https://news.tuoitre.vn/vietnam-exports-1st-commercial-chip-shipment-to-japan-103251231121219901.htm
+      \endverb
+    \endentry
+    \entry{S19}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=9b2ed6c7d8532645301077730354d0c4}{%
+           family={{Nhân Dân}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Nhân Dân}%
+      }
+      \strng{namehash}{9b2ed6c7d8532645301077730354d0c4}
+      \strng{fullhash}{9b2ed6c7d8532645301077730354d0c4}
+      \strng{fullhashraw}{9b2ed6c7d8532645301077730354d0c4}
+      \strng{bibnamehash}{9b2ed6c7d8532645301077730354d0c4}
+      \strng{authorbibnamehash}{9b2ed6c7d8532645301077730354d0c4}
+      \strng{authornamehash}{9b2ed6c7d8532645301077730354d0c4}
+      \strng{authorfullhash}{9b2ed6c7d8532645301077730354d0c4}
+      \strng{authorfullhashraw}{9b2ed6c7d8532645301077730354d0c4}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{12}
+      \field{title}{{Viet Nam Exports First Batch of Power Chips to Japanese Market}}
+      \field{urlday}{28}
+      \field{urlmonth}{11}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://en.nhandan.vn/viet-nam-exports-first-batch-of-power-chips-to-japanese-market-post157330.html
+      \endverb
+      \verb{url}
+      \verb https://en.nhandan.vn/viet-nam-exports-first-batch-of-power-chips-to-japanese-market-post157330.html
+      \endverb
+    \endentry
+    \entry{S5}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=52768c35bf4f17d9aa91cc4211475bc4}{%
+           family={{Business Wire}},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{52768c35bf4f17d9aa91cc4211475bc4}
+      \strng{fullhash}{52768c35bf4f17d9aa91cc4211475bc4}
+      \strng{fullhashraw}{52768c35bf4f17d9aa91cc4211475bc4}
+      \strng{bibnamehash}{52768c35bf4f17d9aa91cc4211475bc4}
+      \strng{authorbibnamehash}{52768c35bf4f17d9aa91cc4211475bc4}
+      \strng{authornamehash}{52768c35bf4f17d9aa91cc4211475bc4}
+      \strng{authorfullhash}{52768c35bf4f17d9aa91cc4211475bc4}
+      \strng{authorfullhashraw}{52768c35bf4f17d9aa91cc4211475bc4}
+      \field{extraname}{2}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.businesswire.com/news/home/20240422007290/en/FPT-to-Shape-the-Future-of-AI-and-Cloud-on-a-Global-Scale-in-Collaboration-with-NVIDIA}}
+      \field{month}{4}
+      \field{title}{FPT to shape the future of {AI} and Cloud in collaboration with {NVIDIA}}
+      \field{year}{2024}
+    \endentry
+    \entry{S6}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=208421fcbc090a62f099f85472ded9ba}{%
+           family={{Bloomberg}},
+           familyi={B\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Bloomberg}%
+      }
+      \strng{namehash}{208421fcbc090a62f099f85472ded9ba}
+      \strng{fullhash}{208421fcbc090a62f099f85472ded9ba}
+      \strng{fullhashraw}{208421fcbc090a62f099f85472ded9ba}
+      \strng{bibnamehash}{208421fcbc090a62f099f85472ded9ba}
+      \strng{authorbibnamehash}{208421fcbc090a62f099f85472ded9ba}
+      \strng{authornamehash}{208421fcbc090a62f099f85472ded9ba}
+      \strng{authorfullhash}{208421fcbc090a62f099f85472ded9ba}
+      \strng{authorfullhashraw}{208421fcbc090a62f099f85472ded9ba}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{22}
+      \field{month}{4}
+      \field{title}{{Sumitomo, SBI Holdings to Take Stakes in Vietnam's FPT AI Unit}}
+      \field{urlday}{28}
+      \field{urlmonth}{11}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.bloomberg.com/news/articles/2025-04-22/sumitomo-sbi-holdings-to-take-stakes-in-vietnam-s-fpt-ai-unit
+      \endverb
+      \verb{url}
+      \verb https://www.bloomberg.com/news/articles/2025-04-22/sumitomo-sbi-holdings-to-take-stakes-in-vietnam-s-fpt-ai-unit
+      \endverb
+    \endentry
+    \entry{A6}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=52768c35bf4f17d9aa91cc4211475bc4}{%
+           family={{Business Wire}},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{52768c35bf4f17d9aa91cc4211475bc4}
+      \strng{fullhash}{52768c35bf4f17d9aa91cc4211475bc4}
+      \strng{fullhashraw}{52768c35bf4f17d9aa91cc4211475bc4}
+      \strng{bibnamehash}{52768c35bf4f17d9aa91cc4211475bc4}
+      \strng{authorbibnamehash}{52768c35bf4f17d9aa91cc4211475bc4}
+      \strng{authornamehash}{52768c35bf4f17d9aa91cc4211475bc4}
+      \strng{authorfullhash}{52768c35bf4f17d9aa91cc4211475bc4}
+      \strng{authorfullhashraw}{52768c35bf4f17d9aa91cc4211475bc4}
+      \field{extraname}{3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.businesswire.com/news/home/20260805503787/en/}}
+      \field{month}{8}
+      \field{title}{{FPT} named an {OpenAI} Select Partner}
+      \field{year}{2026}
+    \endentry
+    \entry{A7}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=fc1798eaea9046f2fa021f378d5a3434}{%
+           family={{TechRepublic}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{fc1798eaea9046f2fa021f378d5a3434}
+      \strng{fullhash}{fc1798eaea9046f2fa021f378d5a3434}
+      \strng{fullhashraw}{fc1798eaea9046f2fa021f378d5a3434}
+      \strng{bibnamehash}{fc1798eaea9046f2fa021f378d5a3434}
+      \strng{authorbibnamehash}{fc1798eaea9046f2fa021f378d5a3434}
+      \strng{authornamehash}{fc1798eaea9046f2fa021f378d5a3434}
+      \strng{authorfullhash}{fc1798eaea9046f2fa021f378d5a3434}
+      \strng{authorfullhashraw}{fc1798eaea9046f2fa021f378d5a3434}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.techrepublic.com/article/news-fpt-naver-cloud-ai-factory-partnership-apac-vietnam/}}
+      \field{month}{10}
+      \field{title}{{FPT} joins {NAVER} Cloud to expand {AI} Factory services across Asia}
+      \field{year}{2026}
+    \endentry
+    \entry{A21}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=550eaee1f9011d5de7f3615bea3bf569}{%
+           family={{FPT Corporation}},
+           familyi={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{550eaee1f9011d5de7f3615bea3bf569}
+      \strng{fullhash}{550eaee1f9011d5de7f3615bea3bf569}
+      \strng{fullhashraw}{550eaee1f9011d5de7f3615bea3bf569}
+      \strng{bibnamehash}{550eaee1f9011d5de7f3615bea3bf569}
+      \strng{authorbibnamehash}{550eaee1f9011d5de7f3615bea3bf569}
+      \strng{authornamehash}{550eaee1f9011d5de7f3615bea3bf569}
+      \strng{authorfullhash}{550eaee1f9011d5de7f3615bea3bf569}
+      \strng{authorfullhashraw}{550eaee1f9011d5de7f3615bea3bf569}
+      \field{extraname}{5}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://fpt.com/en/news/fpt-ai-factory-accelerates-ai-reasoning-capabilities-across-southeast-asia-and-japan-with-nvidia}}
+      \field{month}{3}
+      \field{title}{{FPT} {AI} Factory accelerates {AI} reasoning with {NVIDIA} {HGX} {B300}}
+      \field{year}{2026}
+    \endentry
+    \entry{S12}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=37d95f585737953e8e3353f977400d40}{%
+           family={{Vietnam Investment Review}},
+           familyi={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{37d95f585737953e8e3353f977400d40}
+      \strng{fullhash}{37d95f585737953e8e3353f977400d40}
+      \strng{fullhashraw}{37d95f585737953e8e3353f977400d40}
+      \strng{bibnamehash}{37d95f585737953e8e3353f977400d40}
+      \strng{authorbibnamehash}{37d95f585737953e8e3353f977400d40}
+      \strng{authornamehash}{37d95f585737953e8e3353f977400d40}
+      \strng{authorfullhash}{37d95f585737953e8e3353f977400d40}
+      \strng{authorfullhashraw}{37d95f585737953e8e3353f977400d40}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://vir.com.vn/fpt-acquires-german-it-consulting-company-127773.html}}
+      \field{month}{5}
+      \field{title}{{FPT} acquires German {IT} consulting company David Lamm Consulting}
+      \field{year}{2025}
+    \endentry
+    \entry{S14}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=89ccc95378474141b48e4552604b10ae}{%
+           family={{VOV}},
+           familyi={V\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {VOV}%
+      }
+      \strng{namehash}{89ccc95378474141b48e4552604b10ae}
+      \strng{fullhash}{89ccc95378474141b48e4552604b10ae}
+      \strng{fullhashraw}{89ccc95378474141b48e4552604b10ae}
+      \strng{bibnamehash}{89ccc95378474141b48e4552604b10ae}
+      \strng{authorbibnamehash}{89ccc95378474141b48e4552604b10ae}
+      \strng{authornamehash}{89ccc95378474141b48e4552604b10ae}
+      \strng{authorfullhash}{89ccc95378474141b48e4552604b10ae}
+      \strng{authorfullhashraw}{89ccc95378474141b48e4552604b10ae}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{3}
+      \field{title}{{FPT's Akabot Receives Patent in Taiwan (China)}}
+      \field{urlday}{28}
+      \field{urlmonth}{11}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://english.vov.vn/en/society/fpts-akabot-ai-agentic-automation-solution-receives-patent-in-taiwan-china-post1275382.vov
+      \endverb
+      \verb{url}
+      \verb https://english.vov.vn/en/society/fpts-akabot-ai-agentic-automation-solution-receives-patent-in-taiwan-china-post1275382.vov
+      \endverb
+    \endentry
+    \entry{S7}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=52768c35bf4f17d9aa91cc4211475bc4}{%
+           family={{Business Wire}},
+           familyi={B\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Business Wire}%
+      }
+      \strng{namehash}{52768c35bf4f17d9aa91cc4211475bc4}
+      \strng{fullhash}{52768c35bf4f17d9aa91cc4211475bc4}
+      \strng{fullhashraw}{52768c35bf4f17d9aa91cc4211475bc4}
+      \strng{bibnamehash}{52768c35bf4f17d9aa91cc4211475bc4}
+      \strng{authorbibnamehash}{52768c35bf4f17d9aa91cc4211475bc4}
+      \strng{authornamehash}{52768c35bf4f17d9aa91cc4211475bc4}
+      \strng{authorfullhash}{52768c35bf4f17d9aa91cc4211475bc4}
+      \strng{authorfullhashraw}{52768c35bf4f17d9aa91cc4211475bc4}
+      \field{extraname}{4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{12}
+      \field{month}{11}
+      \field{title}{{FPT Launches FPT AI Factory in Japan}}
+      \field{urlday}{28}
+      \field{urlmonth}{11}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.businesswire.com/news/home/20241112820251/en
+      \endverb
+      \verb{url}
+      \verb https://www.businesswire.com/news/home/20241112820251/en
+      \endverb
+    \endentry
+    \entry{S10}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=f88e9d8bcac7deac664c9561337aa6b5}{%
+           family={{TOP500}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {TOP500}%
+      }
+      \strng{namehash}{f88e9d8bcac7deac664c9561337aa6b5}
+      \strng{fullhash}{f88e9d8bcac7deac664c9561337aa6b5}
+      \strng{fullhashraw}{f88e9d8bcac7deac664c9561337aa6b5}
+      \strng{bibnamehash}{f88e9d8bcac7deac664c9561337aa6b5}
+      \strng{authorbibnamehash}{f88e9d8bcac7deac664c9561337aa6b5}
+      \strng{authornamehash}{f88e9d8bcac7deac664c9561337aa6b5}
+      \strng{authorfullhash}{f88e9d8bcac7deac664c9561337aa6b5}
+      \strng{authorfullhashraw}{f88e9d8bcac7deac664c9561337aa6b5}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{FPT AI Factory Vietnam}}
+      \field{urlday}{28}
+      \field{urlmonth}{11}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://top500.org/site/51073
+      \endverb
+      \verb{url}
+      \verb https://top500.org/site/51073
+      \endverb
+    \endentry
+    \entry{S4}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=6b15db8f448b7244f65dc783a08582e6}{%
+           family={{DNSE}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {DNSE}%
+      }
+      \strng{namehash}{6b15db8f448b7244f65dc783a08582e6}
+      \strng{fullhash}{6b15db8f448b7244f65dc783a08582e6}
+      \strng{fullhashraw}{6b15db8f448b7244f65dc783a08582e6}
+      \strng{bibnamehash}{6b15db8f448b7244f65dc783a08582e6}
+      \strng{authorbibnamehash}{6b15db8f448b7244f65dc783a08582e6}
+      \strng{authornamehash}{6b15db8f448b7244f65dc783a08582e6}
+      \strng{authorfullhash}{6b15db8f448b7244f65dc783a08582e6}
+      \strng{authorfullhashraw}{6b15db8f448b7244f65dc783a08582e6}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{In Vietnamese}
+      \field{title}{{Sau 1 năm, 2 nhà máy AI Factory của FPT tại Việt Nam và Nhật Bản ra sao}}
+      \field{urlday}{28}
+      \field{urlmonth}{11}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.dnse.com.vn/senses/tin-tuc/sau-1-nam-2-nha-may-ai-factory-cua-fpt-tai-viet-nam-va-nhat-ban-ra-sao-35248488
+      \endverb
+      \verb{url}
+      \verb https://www.dnse.com.vn/senses/tin-tuc/sau-1-nam-2-nha-may-ai-factory-cua-fpt-tai-viet-nam-va-nhat-ban-ra-sao-35248488
+      \endverb
+    \endentry
     \entry{S25}{misc}{}{}
       \name{author}{1}{}{%
         {{hash=550eaee1f9011d5de7f3615bea3bf569}{%
@@ -33,7 +673,7 @@
       \strng{authornamehash}{550eaee1f9011d5de7f3615bea3bf569}
       \strng{authorfullhash}{550eaee1f9011d5de7f3615bea3bf569}
       \strng{authorfullhashraw}{550eaee1f9011d5de7f3615bea3bf569}
-      \field{extraname}{1}
+      \field{extraname}{6}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -57,8 +697,8 @@
       \strng{authornamehash}{2251b5c0e9a7ea84b076b4b680ea89b4}
       \strng{authorfullhash}{2251b5c0e9a7ea84b076b4b680ea89b4}
       \strng{authorfullhashraw}{2251b5c0e9a7ea84b076b4b680ea89b4}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://fpt.ai/blogs/fpt-ais-2025-milestone-a-year-of-comprehensive-breakthroughs-on-the-global-stage/}}
@@ -83,8 +723,8 @@
       \strng{authornamehash}{0082eed1ed05614b1df8cb22e6de2bf5}
       \strng{authorfullhash}{0082eed1ed05614b1df8cb22e6de2bf5}
       \strng{authorfullhashraw}{0082eed1ed05614b1df8cb22e6de2bf5}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{12}
@@ -103,30 +743,6 @@
       \verb https://www.vietcap.com.vn/en/research-center/fpt-global-it-signed-revenue-recovery-led-by-apac-since-h2-2025-bright-domestic-it-demand-outlook-in-2026-analyst-meeting-note
       \endverb
     \endentry
-    \entry{A22}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=550eaee1f9011d5de7f3615bea3bf569}{%
-           family={{FPT Corporation}},
-           familyi={F\bibinitperiod}}}%
-      }
-      \strng{namehash}{550eaee1f9011d5de7f3615bea3bf569}
-      \strng{fullhash}{550eaee1f9011d5de7f3615bea3bf569}
-      \strng{fullhashraw}{550eaee1f9011d5de7f3615bea3bf569}
-      \strng{bibnamehash}{550eaee1f9011d5de7f3615bea3bf569}
-      \strng{authorbibnamehash}{550eaee1f9011d5de7f3615bea3bf569}
-      \strng{authornamehash}{550eaee1f9011d5de7f3615bea3bf569}
-      \strng{authorfullhash}{550eaee1f9011d5de7f3615bea3bf569}
-      \strng{authorfullhashraw}{550eaee1f9011d5de7f3615bea3bf569}
-      \field{extraname}{2}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{\url{https://fpt.com/en/news/fpt-signs-tens-of-millions-of-dollars-ai-contract-with-a-leading-global-materials-corporation}}
-      \field{month}{4}
-      \field{title}{{FPT} signs tens-of-millions-of-dollars {AI} contract with a leading global materials corporation}
-      \field{year}{2026}
-    \endentry
     \entry{A27}{misc}{}{}
       \name{author}{1}{}{%
         {{hash=b28e0cdadcb05afe05f814b29093d1f5}{%
@@ -141,9 +757,9 @@
       \strng{authornamehash}{b28e0cdadcb05afe05f814b29093d1f5}
       \strng{authorfullhash}{b28e0cdadcb05afe05f814b29093d1f5}
       \strng{authorfullhashraw}{b28e0cdadcb05afe05f814b29093d1f5}
-      \field{extraname}{1}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://fptsoftware.com/en/newsroom/news-and-press-releases/news/fpt-champions-ai-sovereignty-for-vietnams-digital-future}}
@@ -167,8 +783,8 @@
       \strng{authornamehash}{38080f50a7f44d75f1132dfa4a4dde6d}
       \strng{authorfullhash}{38080f50a7f44d75f1132dfa4a4dde6d}
       \strng{authorfullhashraw}{38080f50a7f44d75f1132dfa4a4dde6d}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{24}
@@ -204,8 +820,8 @@
       \strng{authornamehash}{069e8fd6c0ebe72ef059cb2f322c8697}
       \strng{authorfullhash}{069e8fd6c0ebe72ef059cb2f322c8697}
       \strng{authorfullhashraw}{069e8fd6c0ebe72ef059cb2f322c8697}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{20}
@@ -242,8 +858,8 @@
       \strng{authornamehash}{661f83a17f2c4be3f80a1d66c5da1b35}
       \strng{authorfullhash}{661f83a17f2c4be3f80a1d66c5da1b35}
       \strng{authorfullhashraw}{661f83a17f2c4be3f80a1d66c5da1b35}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{21}
@@ -280,8 +896,8 @@
       \strng{authornamehash}{9fcccbdf09c93c239ca6e3d1d2af7d34}
       \strng{authorfullhash}{9fcccbdf09c93c239ca6e3d1d2af7d34}
       \strng{authorfullhashraw}{9fcccbdf09c93c239ca6e3d1d2af7d34}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{22}
@@ -318,9 +934,9 @@
       \strng{authornamehash}{550eaee1f9011d5de7f3615bea3bf569}
       \strng{authorfullhash}{550eaee1f9011d5de7f3615bea3bf569}
       \strng{authorfullhashraw}{550eaee1f9011d5de7f3615bea3bf569}
-      \field{extraname}{3}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extraname}{7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{10}
@@ -356,9 +972,9 @@
       \strng{authornamehash}{550eaee1f9011d5de7f3615bea3bf569}
       \strng{authorfullhash}{550eaee1f9011d5de7f3615bea3bf569}
       \strng{authorfullhashraw}{550eaee1f9011d5de7f3615bea3bf569}
-      \field{extraname}{4}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extraname}{8}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{13}
@@ -395,9 +1011,9 @@
       \strng{authornamehash}{b28e0cdadcb05afe05f814b29093d1f5}
       \strng{authorfullhash}{b28e0cdadcb05afe05f814b29093d1f5}
       \strng{authorfullhashraw}{b28e0cdadcb05afe05f814b29093d1f5}
-      \field{extraname}{2}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extraname}{3}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{13}
@@ -433,8 +1049,8 @@
       \strng{authornamehash}{e97f4fa62607bbbb83cbdd93dba8a0ac}
       \strng{authorfullhash}{e97f4fa62607bbbb83cbdd93dba8a0ac}
       \strng{authorfullhashraw}{e97f4fa62607bbbb83cbdd93dba8a0ac}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{17}
@@ -472,8 +1088,8 @@
       \strng{authornamehash}{0bbd964dab71fbd9a3b86ce2054321f2}
       \strng{authorfullhash}{0bbd964dab71fbd9a3b86ce2054321f2}
       \strng{authorfullhashraw}{0bbd964dab71fbd9a3b86ce2054321f2}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{12}
@@ -509,8 +1125,8 @@
       \strng{authornamehash}{ab1bb90ce48f0390e87d6cc0e6f05421}
       \strng{authorfullhash}{ab1bb90ce48f0390e87d6cc0e6f05421}
       \strng{authorfullhashraw}{ab1bb90ce48f0390e87d6cc0e6f05421}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{10}
@@ -557,8 +1173,8 @@
       \strng{authornamehash}{0bfbff3b354cb8c9714d5e4dc5b15a15}
       \strng{authorfullhash}{c4b14c58bb06708f740914cd33c9df52}
       \strng{authorfullhashraw}{c4b14c58bb06708f740914cd33c9df52}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{30}
@@ -591,37 +1207,14 @@
       \strng{authornamehash}{181068501d772d511be2fea4519c72af}
       \strng{authorfullhash}{181068501d772d511be2fea4519c72af}
       \strng{authorfullhashraw}{181068501d772d511be2fea4519c72af}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://www.datacenterdynamics.com/en/news/sbi-holdings-and-sumitomo-acquire-minority-shares-in-fpt-smart-cloud-japan/}}
       \field{month}{4}
       \field{title}{{SBI} Holdings and Sumitomo acquire minority shares in {FPT} Smart Cloud Japan}
       \field{year}{2025}
-    \endentry
-    \entry{A8}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=550eaee1f9011d5de7f3615bea3bf569}{%
-           family={{FPT Corporation}},
-           familyi={F\bibinitperiod}}}%
-      }
-      \strng{namehash}{550eaee1f9011d5de7f3615bea3bf569}
-      \strng{fullhash}{550eaee1f9011d5de7f3615bea3bf569}
-      \strng{fullhashraw}{550eaee1f9011d5de7f3615bea3bf569}
-      \strng{bibnamehash}{550eaee1f9011d5de7f3615bea3bf569}
-      \strng{authorbibnamehash}{550eaee1f9011d5de7f3615bea3bf569}
-      \strng{authornamehash}{550eaee1f9011d5de7f3615bea3bf569}
-      \strng{authorfullhash}{550eaee1f9011d5de7f3615bea3bf569}
-      \strng{authorfullhashraw}{550eaee1f9011d5de7f3615bea3bf569}
-      \field{extraname}{5}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{\url{https://bctn2025.fpt.com/business-strategy/fpts-development-strategy-for-the-2026-2028-period/}}
-      \field{title}{Annual Report 2025: Development strategy for 2026--2028}
-      \field{year}{2026}
     \endentry
     \entry{A29}{misc}{}{}
       \name{author}{1}{}{%
@@ -637,9 +1230,9 @@
       \strng{authornamehash}{550eaee1f9011d5de7f3615bea3bf569}
       \strng{authorfullhash}{550eaee1f9011d5de7f3615bea3bf569}
       \strng{authorfullhashraw}{550eaee1f9011d5de7f3615bea3bf569}
-      \field{extraname}{6}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extraname}{9}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://fpt.com/en/news/article}}
@@ -660,9 +1253,9 @@
       \strng{authornamehash}{52768c35bf4f17d9aa91cc4211475bc4}
       \strng{authorfullhash}{52768c35bf4f17d9aa91cc4211475bc4}
       \strng{authorfullhashraw}{52768c35bf4f17d9aa91cc4211475bc4}
-      \field{extraname}{1}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extraname}{5}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://www.businesswire.com/news/home/20241120048980/en/}}
@@ -684,9 +1277,9 @@
       \strng{authornamehash}{52768c35bf4f17d9aa91cc4211475bc4}
       \strng{authorfullhash}{52768c35bf4f17d9aa91cc4211475bc4}
       \strng{authorfullhashraw}{52768c35bf4f17d9aa91cc4211475bc4}
-      \field{extraname}{2}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extraname}{6}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://www.businesswire.com/news/home/20230604005002/en/FPT-and-Mila-Renew-Strategic-Partnership-Advancing-Responsible-AI}}
@@ -711,9 +1304,9 @@
       \strng{authornamehash}{550eaee1f9011d5de7f3615bea3bf569}
       \strng{authorfullhash}{550eaee1f9011d5de7f3615bea3bf569}
       \strng{authorfullhashraw}{550eaee1f9011d5de7f3615bea3bf569}
-      \field{extraname}{7}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extraname}{10}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{10}
@@ -749,9 +1342,9 @@
       \strng{authornamehash}{52768c35bf4f17d9aa91cc4211475bc4}
       \strng{authorfullhash}{52768c35bf4f17d9aa91cc4211475bc4}
       \strng{authorfullhashraw}{52768c35bf4f17d9aa91cc4211475bc4}
-      \field{extraname}{3}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extraname}{7}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{16}
@@ -769,53 +1362,6 @@
       \verb{url}
       \verb https://www.businesswire.com/news/home/20250915327618/en
       \endverb
-    \endentry
-    \entry{A7}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=fc1798eaea9046f2fa021f378d5a3434}{%
-           family={{TechRepublic}},
-           familyi={T\bibinitperiod}}}%
-      }
-      \strng{namehash}{fc1798eaea9046f2fa021f378d5a3434}
-      \strng{fullhash}{fc1798eaea9046f2fa021f378d5a3434}
-      \strng{fullhashraw}{fc1798eaea9046f2fa021f378d5a3434}
-      \strng{bibnamehash}{fc1798eaea9046f2fa021f378d5a3434}
-      \strng{authorbibnamehash}{fc1798eaea9046f2fa021f378d5a3434}
-      \strng{authornamehash}{fc1798eaea9046f2fa021f378d5a3434}
-      \strng{authorfullhash}{fc1798eaea9046f2fa021f378d5a3434}
-      \strng{authorfullhashraw}{fc1798eaea9046f2fa021f378d5a3434}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{\url{https://www.techrepublic.com/article/news-fpt-naver-cloud-ai-factory-partnership-apac-vietnam/}}
-      \field{month}{10}
-      \field{title}{{FPT} joins {NAVER} Cloud to expand {AI} Factory services across Asia}
-      \field{year}{2026}
-    \endentry
-    \entry{A21}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=550eaee1f9011d5de7f3615bea3bf569}{%
-           family={{FPT Corporation}},
-           familyi={F\bibinitperiod}}}%
-      }
-      \strng{namehash}{550eaee1f9011d5de7f3615bea3bf569}
-      \strng{fullhash}{550eaee1f9011d5de7f3615bea3bf569}
-      \strng{fullhashraw}{550eaee1f9011d5de7f3615bea3bf569}
-      \strng{bibnamehash}{550eaee1f9011d5de7f3615bea3bf569}
-      \strng{authorbibnamehash}{550eaee1f9011d5de7f3615bea3bf569}
-      \strng{authornamehash}{550eaee1f9011d5de7f3615bea3bf569}
-      \strng{authorfullhash}{550eaee1f9011d5de7f3615bea3bf569}
-      \strng{authorfullhashraw}{550eaee1f9011d5de7f3615bea3bf569}
-      \field{extraname}{8}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{\url{https://fpt.com/en/news/fpt-ai-factory-accelerates-ai-reasoning-capabilities-across-southeast-asia-and-japan-with-nvidia}}
-      \field{month}{3}
-      \field{title}{{FPT} {AI} Factory accelerates {AI} reasoning with {NVIDIA} {HGX} {B300}}
-      \field{year}{2026}
     \endentry
   \enddatalist
 \endrefsection

@@ -170,6 +170,39 @@
 
 \chapter{Technology Identification}
 
+Following Gregory's (1995) technology-management process, technology identification involves scanning the external environment for technologies that may threaten or strengthen a firm's competitive position. For FPT, this process identified artificial intelligence as both a threat to its existing service model and an opportunity to create new forms of value.
+
+\section{Key drivers of AI identification}
+
+\textbf{Market.} Gartner's forecasts, as reported by FPT, put global AI spending at approximately US\$1.5 trillion in 2025 and above US\$2 trillion in 2026 \cite{M3}. This scale of expected demand made AI strategically difficult to ignore.
+
+\textbf{Clients.} Customers were moving from small AI pilots towards company-wide, platform-driven deployment. FPT's large AI transformation engagements illustrate this shift from experimentation towards integration into core operations \cite{A22}.
+
+\textbf{Competition.} AI coding tools can reduce the human effort required for software development, challenging an outsourcing model whose revenue is closely related to engineer headcount and billable man-hours.
+
+\textbf{Policy.} Vietnam's national strategic-technology agenda and Japan's emphasis on sovereign AI capacity increase the value of local infrastructure, trusted implementation and domestic delivery capability \cite{A8,A15}.
+
+\section{Strategic implications for FPT}
+
+The four signals produced three linked implications for FPT's technology strategy.
+
+\begin{table}[H]
+\centering
+\caption{Strategic implications of AI identification for FPT}
+\label{tab:ai-identification}
+\begin{tabular}{p{0.19\textwidth} p{0.72\textwidth}}
+\toprule
+\textbf{Dimension} & \textbf{Implication} \\
+\midrule
+Threat & AI may reduce demand for headcount-based outsourcing and billable man-hours. \\
+Opportunity & FPT can expand into AI consulting, system integration, enterprise applications and the infrastructure required to run them. \\
+Response & FPT's AI-First strategy positions AI as a core capability, combining existing models with FPT's platform and integration capabilities. \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Taken together, these drivers explain why FPT treats AI Factory infrastructure, enterprise platforms and AI-enabled services as strategic priorities. The AI-First response seeks to convert pressure on the traditional delivery model into higher-value consulting, integration and infrastructure services.
+
 % -------------------------------------------------
 % Technology Selection and Acquisition 
 % Responsible: ?
@@ -177,7 +210,100 @@
 
 \chapter{Technology Selection}
 
+\section{Technology selection approach}
+
+Technology selection can use scenario analysis, portfolio analysis such as SWOT or BCG, multi-criteria decision-making (MCDM), expert judgement and financial analysis. FPT's choice between two discrete strategic alternatives is most clearly represented as a multi-attribute decision-making (MADM) problem. The comparison below is our qualitative analysis based on public evidence, not FPT's publicly documented selection method.
+
+\section{Comparison of strategic alternatives}
+
+\begin{table}[H]
+\centering
+\caption{Comparison of strategic alternatives}
+\label{tab:technology-selection}
+\renewcommand{\arraystretch}{1.15}
+\begin{tabular}{p{0.20\textwidth} p{0.36\textwidth} p{0.36\textwidth}}
+\toprule
+\textbf{Criteria} & \textbf{A. Develop own frontier model} & \textbf{B. Build on existing models} \\
+\midrule
+Strategic fit & Far from FPT's core IT-services business. & Leverages FPT's existing clients and delivery teams. \\
+Feasibility & Requires enormous computing capacity and scarce research talent. & Uses NVIDIA GPUs, partner models and open models. \\
+Investment & Mistral raised EUR~1.7bn in 2025 and EUR~3bn in 2026. These are fundraising figures, not directly comparable infrastructure costs \cite{S20,S21}. & Approximately US\$200m per AI Factory site, an illustrative infrastructure figure \cite{A17}. \\
+Decision & Not selected. & Selected. \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Selected technology priorities}
+
+\textbf{AI Factory.} GPU infrastructure for training and running enterprise AI services.
+
+\textbf{FleziPT.} An AI delivery platform launched in August 2025 \cite{S18}.
+
+\textbf{FPT.AI.} AI agents and related enterprise applications.
+
+\textbf{Partner and open models.} Integration of models supplied through partners and open-model ecosystems, allowing FPT to focus on application and delivery capabilities.
+
+Semiconductors remain a longer-term strategic option rather than the central AI selection. FPT made its first commercial shipment of power-management ICs to Japan through Restar on 30 December 2025 \cite{M4,M5,S19}.
+
 \chapter{Technology Acquisition}
+
+\section{Technology acquisition methods}
+
+FPT acquires technology through three routes: collaboration, buying technology or firms, and making technology through internal research and development. Collaboration is the main approach because it combines external assets and networks with FPT's own delivery capability.
+
+\begin{table}[H]
+\centering
+\caption{FPT's technology acquisition routes}
+\label{tab:acquisition-routes}
+\renewcommand{\arraystretch}{1.15}
+\begin{tabular}{p{0.16\textwidth} p{0.76\textwidth}}
+\toprule
+\textbf{Route} & \textbf{Evidence} \\
+\midrule
+Collaborate & NVIDIA strategic partnership (April 2024); Sumitomo and SBI each acquired 20\% of FPT Smart Cloud Japan in 2025, leaving FPT with 60\%; and partnerships with OpenAI and NAVER Cloud in 2026 \cite{S5,S6,A6,A7}. \\
+Buy & NVIDIA H100, H200 and HGX B300 GPUs; acquisition of NAC in Japan in 2024 and David Lamm Consulting in Germany in 2025 \cite{A15,A21,S12}. \\
+Make & In-house research and development, including US and Taiwan patents, the FleziPT platform, AI Factory design and operation, and proprietary power-management chip designs \cite{S14,S18,S19}. \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Rationale and trade-offs}
+
+Collaboration dominates because it shares investment and risk, combines complementary capabilities and customer networks, and accelerates entry into new markets. The trade-off is dependence on NVIDIA as the key GPU supplier, alongside dependence on external model partners for part of the technology stack.
+
+\section{Case study: FPT AI Factory}
+
+\begin{table}[H]
+\centering
+\caption{FPT AI Factory development timeline}
+\label{tab:ai-factory-timeline}
+\renewcommand{\arraystretch}{1.15}
+\begin{tabular}{p{0.14\textwidth} p{0.78\textwidth}}
+\toprule
+\textbf{Year} & \textbf{Milestones} \\
+\midrule
+2024 & NVIDIA partnership in April; AI Factory launches in Japan and Vietnam in November \cite{S5,S7}. \\
+2025 & Sumitomo and SBI acquired a combined 40\% of the Japanese unit. In June, the sites ranked Japan 36th (49.85 PFLOPS) and Vietnam 38th (46.65 PFLOPS) in TOP500 \cite{S6,S10}. \\
+2026 & NVIDIA HGX B300 announced in March. Average utilisation was approximately 60\% in February, with Vietnam at breakeven and Japan loss-making. Both sites were later reported above 90\% utilisation and profitable in Q2 \cite{A21,S4}. \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[x=0.095\textwidth,y=0.65cm,font=\small]
+\draw[gray] (0,-0.45) -- (0,1.45);
+\foreach \y/\v/\label in {1/60/{February 2026},0/90/{Q2 2026}}{
+  \node[anchor=east] at (0,\y) {\label};
+  \fill[blue!55!black] (0,\y-0.22) rectangle (\v,\y+0.22);
+  \node[anchor=west] at (\v,\y) {\ifnum\v=90 $>90\%$\else $\approx60\%$\fi};
+}
+\end{tikzpicture}
+\caption[AI Factory utilisation]{Reported AI Factory utilisation in February and Q2 2026. Sources: FPT and DNSE \cite{S4}.}
+\label{fig:ai-factory-utilisation}
+\end{figure}
+
+AI Factory revenue was estimated at approximately US\$12~million in H1 2026 \cite{S4}. The utilisation trend and reported site-level results indicate operational improvement and commercial progress. Since separate profit-and-loss statements are unavailable, site-level profitability rests on company disclosure. It does not establish profitability or ROI for FPT's overall AI business.
 
 
 
